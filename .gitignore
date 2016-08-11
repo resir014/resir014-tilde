@@ -1,12 +1,13 @@
 # Ignore Jekyll files
-_gh_pages
-_site
-_drafts
-.ruby-version
-.sass-cache
+/_gh_pages
+/_site
+/_drafts
+/.ruby-version
+/.sass-cache
 
-# Gemfile
-Gemfile.lock
+# Bundler-related files and folders
+/Gemfile.lock
+/vendor
 
 # Numerous always-ignore extensions
 *.diff
