@@ -1,0 +1,59 @@
+# Permalinks
+permalink: /:categories/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Setup
+title: "@resir014"
+tagline: "This is weird."
+description: "College student, gamer, freelance web developer, Professional Linux Installer."
+url: https://tilde.town
+baseurl: "/~resir014"
+
+# Exclude these files from Jekyll build
+exclude:
+  - "Makefile"
+  - "Gruntfile.js"
+  - "Gemfile"
+  - "README.md"
+  - "LICENSE"
+  - "node_modules"
+  - "bower_components"
+  - "package.json"
+  - "bower.json"
+
+# keep a bunch of folders intact
+keep_files:
+  - "share"
+  - "uploads"
+  - ".htaccess"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# List of time zones supported in the TZ database
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Jakarta
+
+# Jekyll plugins
+gems:
+  - jekyll-sitemap
+  - octopress-paginate
+
+# Plugin: octopress-paginate
+pagination:
+  limit:              false
+  per_page:           1
+  permalink:          /page/:num/
+
+# About/contact
+author:
+  name: Resi Respati
+  url: https://twitter.com/resir014
+  email: resir014@gmail.com

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container home">
+
+      {% include html/header.html %}
+
+      <hr>
+
+      <h2>latest posts</h2>
+
+      {% include html/archive.html %}
+
+      <p><a href="{{ site.baseurl }}/blog">View more posts &rarr;</a></p>
+
+      <hr>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <hr>
+
+      {% include html/footer.html %}
+
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

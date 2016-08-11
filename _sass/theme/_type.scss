@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 400;
+  color: $heading-color;
+}
+
+p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+strong {
+  color: $heading-color;
+}
+
+hr {
+  width: 8rem;
+  margin: 2rem 0;
+  border-top: 1px solid darken($border-color, 2.5%);
+  border-bottom: 0;
+}
+
+abbr {
+  color: $gray-1;
+
+  &[title] {
+    border-bottom: 1px dotted darken($gray-3, 5%);
+  }
+}
+
+blockquote {
+  color: darken($gray-2, 15%);
+  border-left: .25rem solid $border-color;
+}

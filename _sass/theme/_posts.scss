@@ -1,0 +1,49 @@
+.page,
+.post {
+  margin-top: 2em;
+  margin-bottom: 4em;
+
+  li + li {
+    margin-top: .25rem;
+  }
+}
+
+// Blog post or page title
+.page-title,
+.post-title,
+.post-title a {
+  color: $heading-color;
+}
+
+// Posts archive
+.archive {
+  margin: 1.5rem 0;
+
+  a {
+    color: $link-color;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+
+      .archive-title {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.archive-item {
+  display: block;
+  margin: .5rem 0;
+
+  .archive-date {
+    display: block;
+    color: $body-color-muted;
+
+    @media (min-width: 34em) {
+      float: right;
+      margin-left: .5rem;
+    }
+  }
+}

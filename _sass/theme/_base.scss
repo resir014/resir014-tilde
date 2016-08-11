@@ -1,0 +1,13 @@
+table {
+  border: 1px solid $border-color;
+}
+
+td,
+th {
+  border: 1px solid $border-color;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: $table-odd-background-color;
+}
