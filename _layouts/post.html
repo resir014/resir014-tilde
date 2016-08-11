@@ -7,6 +7,9 @@ layout: default
   {% if page.date %}
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {% endif %}
+  {% if page.lead %}
+    <p class="lead">{{ page.lead }}</p>
+  {% endif %}
   <section class="post-content">
     {{ content }}
   </section>

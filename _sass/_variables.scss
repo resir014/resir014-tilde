@@ -21,7 +21,7 @@ $body-color: $gray-2;
 $body-color-muted: $gray-3;
 $body-bg: $gray-5;
 $heading-color: #fff;
-$link-color: $gray-1;
+$link-color: $blue;
 
 $border-color: darken($gray-5, 2.5%);
 $message-background-color: $border-color;
@@ -31,7 +31,7 @@ $table-odd-background-color: darken($gray-5, 1%);
 $large-breakpoint: 38em;
 $large-font-size: 18px;
 
-$grid-gutter: 1rem;
+$grid-gutter: 1.5rem;
 $grid-gutter-lg: 3rem;
 
 $code-font-family: Menlo, Monaco, "Consolas", "Courier New", monospace;
