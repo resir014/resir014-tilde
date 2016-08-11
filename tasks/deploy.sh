@@ -18,4 +18,3 @@ fi
 
 echo -e \
   "\nJekyll build successful."
-
