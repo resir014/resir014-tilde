@@ -16,8 +16,8 @@
   <meta name="description" content="{{ site.description }}">
   {% elsif page.lead %}
   <meta name="description" content="{{ page.lead }}">
-  {% elsif page.url contains "/blog/" %}
-  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | xml_escape }}">
+  {% elsif page.category == 'blog' %}
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 35, '…' | xml_escape }}">
   {% else %}
   <meta name="description" content="{{ site.description }}">
   {% endif %}
