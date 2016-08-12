@@ -27,6 +27,9 @@ $body-color-muted: darken($base05, 15%);
 $body-bg: $base01;
 $heading-color: $base07;
 $link-color: $base0D;
+$abbr-color: $base06;
+$abbr-border-color: darken($base03, 5%);
+$blockquote-color: darken($body-color, 15%);
 
 // Tables
 $table-odd-background-color: darken($base01, 1%);
