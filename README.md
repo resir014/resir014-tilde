@@ -14,7 +14,7 @@ Requirements:
 * Jekyll <http://jekyllrb.com/>
   (install from within Ruby: `gem install jekyll`)
 
-Clone it. ( `git clone https://github.com/resir014/moonlight-web.git` )
+Clone it. ( `git clone https://github.com/resir014/resir014-tilde.git` )
 
 Then install all the bundled plugins.
 
@@ -37,7 +37,7 @@ To deploy the site, run this command.
 
 ```bash
 # Run this command from the server
-$ sudo tasks/deploy
+$ tasks/deploy.sh
 ```
 
 Special thanks
@@ -47,4 +47,4 @@ Special thanks
 * Hosting: [@tilde_town](https://twitter.com/tilde_town)
 * Design: [@resir014](https://twitter.com/resir014)
 
-See [`third-party.txt`](https://github.com/resir014/resir014.xyz/blob/master/third-party.txt) for third-party license notices.
+See [`third-party.txt`](https://github.com/resir014/resir014-tilde/blob/master/third-party.txt) for third-party license notices.
