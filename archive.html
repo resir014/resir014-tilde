@@ -1,37 +1,12 @@
 ---
-layout: default
-title: archive
+layout: page
+title: archives
 permalink: /archive/
 paginate:
   limit: false
   per_page: 10
 ---
 
-<div class="page">
-  <h1 class="page-title">archives</h1>
+{% include html/archive-cat.html %}
 
-  <div class="archive">
-    {% for post in paginator.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}">
-      <div class="archive-item">
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="archive-date">{{ post.date | date_to_string }}</time>
-        <span class="archive-category">{{ post.category }}</span>
-        <span class="archive-title">{{ post.title }}</span>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-    {% else %}
-      <span class="pagination-item older">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-    {% else %}
-      <span class="pagination-item newer">Newer</span>
-    {% endif %}
-  </div>
-</div>
+{% include html/pagination.html %}
