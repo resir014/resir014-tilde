@@ -25,6 +25,9 @@ exclude:
   - "bower.json"
   - "tasks"
 
+include:
+  - "public/images"
+
 # keep a bunch of folders intact
 keep_files:
   - "share"
