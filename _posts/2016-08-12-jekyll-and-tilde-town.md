@@ -161,6 +161,6 @@ Aside from all the stuff mentioned here, Jekyll has many other features, includi
 
 ---
 
-I hope this guide has been helpful! Feel free to mail me through alpine if you need any help.
+I hope this guide has been helpful! Feel free to mail me through alpine if you need any help, or you can view the source code of my Jekyll site [here](https://github.com/resir014/resir014-tilde).
 
 *~resir014*
