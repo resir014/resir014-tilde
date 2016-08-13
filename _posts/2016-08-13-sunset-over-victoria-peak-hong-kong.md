@@ -4,7 +4,7 @@ layout: post
 title: "Sunset over Victoria Peak, Hong Kong"
 ---
 
-![DSC04157.jpg]({{ site.baseurl }}/public/images/photography/2016/_DSC04157.jpg)
+![DSC04157.jpg]({{ site.baseurl }}/public/images/photography/2016/DSC04157.jpg)
 
 ## Details
 
