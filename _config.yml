@@ -23,6 +23,7 @@ exclude:
   - "bower_components"
   - "package.json"
   - "bower.json"
+  - "tasks"
 
 # keep a bunch of folders intact
 keep_files:
