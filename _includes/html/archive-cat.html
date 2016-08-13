@@ -5,7 +5,9 @@
     <a href="{{ site.baseurl }}{{ post.url }}">
       <div class="archive-item">
         <time datetime="{{ post.date | date_to_xmlschema }}" class="archive-date">{{ post.date | date_to_string }}</time>
+        {% if post.category %}
         <span class="archive-category">{{ post.category }}</span>
+        {% endif %}
         <span class="archive-title">{{ post.title }}</span>
       </div>
     </a>
