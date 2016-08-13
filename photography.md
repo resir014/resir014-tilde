@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: feed
 title: photography
 permalink: /photography/
 paginate:
@@ -7,7 +7,3 @@ paginate:
   per_page: 10
   category: 'photography'
 ---
-
-{% include html/archive.html %}
-
-{% include html/pagination.html %}

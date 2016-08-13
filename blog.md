@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: feed
 title: blog
 permalink: /blog/
 paginate:
@@ -7,7 +7,3 @@ paginate:
   per_page: 10
   category: 'blog'
 ---
-
-{% include html/archive.html %}
-
-{% include html/pagination.html %}
