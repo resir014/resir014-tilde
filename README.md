@@ -1,7 +1,7 @@
-resir014.xyz
-============
+resir014-tilde
+==============
 
-> Source code for [resir014.xyz](https://resir014.xyz).
+> Source code for [my tilde site](https://tilde.town/~resir014/).
 
 Developing
 ----------
