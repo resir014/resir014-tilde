@@ -41,6 +41,14 @@
   display: block;
   margin: .5rem 0;
 
+  .archive-category {
+    color: $heading-color;
+
+    &::after {
+      content: ':';
+    }
+  }
+
   .archive-date {
     display: block;
     color: $body-color-muted;
