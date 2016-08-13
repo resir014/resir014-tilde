@@ -44,7 +44,7 @@ Special thanks
 --------------
 
 * Poole: [@mdo](https://twitter.com/mdo)
-* Hosting: [@AT_745](https://twitter.com/AT_745)
+* Hosting: [@tilde_town](https://twitter.com/tilde_town)
 * Design: [@resir014](https://twitter.com/resir014)
 
 See [`third-party.txt`](https://github.com/resir014/resir014.xyz/blob/master/third-party.txt) for third-party license notices.
