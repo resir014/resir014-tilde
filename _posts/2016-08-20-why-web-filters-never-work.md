@@ -21,6 +21,8 @@ To verify this, I opened the official TRUST+ Positif website and searched the do
 
 ![chrome_2016-08-20_14-36-43]({{ site.baseurl }}/public/images/blog/2016/why-web-filters-never-work/chrome_2016-08-20_14-36-43.png)
 
+So basically, thanks to some web filter fuckery their domain (along with their API access) is blocked and redeeming invite codes, even logging in, can't be done on regular Indonesian networks.
+
 ---
 
 Whilst I am 90% sure that this is an old filter that never got cleared out of the list, this further exposes yet another major flaw in web filters. For app developers, you better not have a blocked domain in your API URL, else you're fucked.
