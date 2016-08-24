@@ -19,11 +19,11 @@ Overall, the rules on how long your playlist should be is pretty laxed, the only
 
 ## Tracklist
 
-1. Moby - My Weakness
-2. LFO - LFO
-3. Gorillaz - Feel Good Inc.
-4. Bibio - Dinghy
-5. Software - Oceans Breath
-6. The Chemical Brothers - The Pills Won't Help You Now
+1. [Moby - My Weakness](https://www.youtube.com/watch?v=8miMg3xBN2s)
+2. [LFO - LFO](https://www.youtube.com/watch?v=RpZVPSCv79U)
+3. [Gorillaz - Feel Good Inc.](https://www.youtube.com/watch?v=HyHNuVaZJ-k)
+4. [Bibio - Dinghy](https://www.youtube.com/watch?v=v3iYfre0wHY)
+5. [Software - Oceans Breath](https://www.youtube.com/watch?v=06O1X7niChQ)
+6. [The Chemical Brothers - The Pills Won't Help You Now](https://www.youtube.com/watch?v=WMz5W_VzhCw)
 
-**Bonus Track:** The Prodigy - Stand Up
+**Bonus Track:** [The Prodigy - Stand Up](https://www.youtube.com/watch?v=3zW1eullzVI)
