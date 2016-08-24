@@ -58,3 +58,15 @@ author:
   name: Resi Respati
   url: https://twitter.com/resir014
   email: resir014@gmail.com
+
+# Collections
+collections:
+  stuff:
+    output: true
+    permalink: /:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  etc:
+    output: true
+    permalink: /:collection/:path/
