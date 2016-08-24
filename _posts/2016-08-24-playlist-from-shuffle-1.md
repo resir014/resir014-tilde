@@ -1,5 +1,5 @@
 ---
-category: playlist
+category: blog
 layout: post
 title: "Playlist From Shuffle #1"
 ---
