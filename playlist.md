@@ -8,4 +8,4 @@ paginate:
   category: 'playlist'
 ---
 
-The following category contains some of the more interesting songs that I've come across throughout the year.
+I've been trying to make playlists lately. Here are some of them.

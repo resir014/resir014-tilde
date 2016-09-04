@@ -13,7 +13,7 @@ The first installment of my Playlist From Shuffle collection is available below.
 
 ## Rules
 
-* Put your favourite music player on shuffle and put every track being shuffled into your playlist, in order. **Do not** change the order in which they were shuffled.
+* Put your favourite music player on shuffle and select some of the the shuffled tracks into your playlist. **Do not** change the order in which they were shuffled.
 * There is no mandatory time limit for the playlists, but try to keep them below 2 hours long.
 
 Overall, the rules on how long your playlist should be is pretty laxed, the only important thing is to not alter the order of the shuffle.
