@@ -24,6 +24,6 @@ Overall, the rules on how long your playlist should be is pretty laxed, the only
 5. [Fuck Buttons - Okay, Let's Talk About Magic](https://www.youtube.com/watch?v=-s79yqVNDnY)
 6. [Professor Kliq - The Most Beautiful Day (2013)](http://store.professorkliq.com/track/the-most-beautiful-day-2013)
 7. [Big Black Delta - Money Rain Down](https://www.youtube.com/watch?v=KdgXyY7MjVM)
-8. [Wax Tailor - Sometimes (Phonovisions Symphnoy Version)](https://www.youtube.com/watch?v=c170V8dDLpE)
+8. [Wax Tailor - Sometimes (Phonovisions Symphonic Version)](https://www.youtube.com/watch?v=c170V8dDLpE)
 9. [Nathan Fake - You Are Here (Fortdax Mix)](https://www.youtube.com/watch?v=IUkSK6eoYro)
 10. [Muse - United States of Eurasia [+Collateral Damage]](https://www.youtube.com/watch?v=-5-K51jHQ6k)
