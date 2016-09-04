@@ -44,6 +44,7 @@ timezone: Asia/Jakarta
 
 # Jekyll plugins
 gems:
+  - jekyll-redirect-from
   - jekyll-sitemap
   - octopress-paginate
 

@@ -4,6 +4,7 @@ gem 'jekyll', '~> 2.5.3'
 gem 'rouge'
 
 group :jekyll_plugins do
+  gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'octopress-paginate'
 end
