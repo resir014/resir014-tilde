@@ -11,7 +11,9 @@
     {% endif %}
   </title>
 
-  <meta name="author" content="Resi Respati (@resir014)">
+  {% if page.category == 'blog' %}
+  <meta name="author" content="{{ site.author.name }}">
+  {% endif %}
   {% if page.title == "Home" %}
   <meta name="description" content="{{ site.description }}">
   {% elsif page.lead %}
