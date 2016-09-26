@@ -1,0 +1,25 @@
+{% assign post_count = site.timeless-games | size %}
+{% if post_count > 0 %}
+  {% for post in site.timeless-games %}
+    {% capture currentletter %}{{ post.title | capitalize | split: '' | first }}{% endcapture %}
+    {% if currentletter != letter %}
+      {% unless forloop.first %}</div>{% endunless %}
+
+      <h1>{{ currentletter }}</h1>
+      <div class="archive">
+      {% capture letter %}{{ currentletter }}{% endcapture %}
+    {% endif %}
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <div class="archive-item">
+        <span class="archive-title">{{ post.title }}</span>
+      </div>
+    </a>
+    {% if forloop.last %}</div>{% endif %}
+  {% endfor %}
+{% else %}
+  <div class="archive">
+    <div class="archive-item">
+      <span class="text-muted">No posts available.</span>
+    </div>
+  </div>
+{% endif %}

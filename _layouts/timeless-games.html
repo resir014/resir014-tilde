@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+{% if page.banner_url %}
+<img src="{{ site.baseurl }}{{ page.banner_url }}" alt="{{ page.title }}">
+{% endif %}
+
+<h2>genre</h2>
+<p>{{ page.genre | join: ', ' }}</p>
+
+<h2>notes</h2>
+{{ content }}
