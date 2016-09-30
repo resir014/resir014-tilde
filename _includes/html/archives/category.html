@@ -2,13 +2,16 @@
   {% assign post_count = paginator.posts | size %}
   {% if post_count > 0 %}
     {% for post in paginator.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}">
+    <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
       <div class="archive-item">
         <time datetime="{{ post.date | date_to_xmlschema }}" class="archive-date">{{ post.date | date_to_string }}</time>
         {% if post.category %}
         <span class="archive-category">{{ post.category }}</span>
         {% endif %}
         <span class="archive-title">{{ post.title }}</span>
+        {% if post.redirect_to or post.external_url %}
+          &raquo;
+        {% endif %}
       </div>
     </a>
     {% endfor %}

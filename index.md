@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-## get in touch
+# get in touch
 
 ### [Twitter](https://twitter.com/resir014)
 
@@ -15,7 +15,7 @@ The dumping ground for most of my failed projects.
 
 ---
 
-## projects
+# projects
 
 ### [Screeps TypeScript Starter](https://github.com/screepers/screeps-typescript-starter)
 

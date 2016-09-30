@@ -1,44 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-  {% include head.html %}
+<h1>latest posts</h1>
 
-  <body>
+{% include html/archives/home.html %}
 
-    <div class="container home">
+<a href="{{ site.baseurl }}/blog">Read more &rarr;</a>
 
-      {% include html/header.html %}
+<hr>
 
-      <span>
-        <a href="{{ site.baseurl }}/about">about</a> |
-        <a href="{{ site.baseurl }}/blog">blog</a> |
-        <a href="{{ site.baseurl }}/creative">creative</a> |
-        <a href="{{ site.baseurl }}/timeless-games">timeless games</a> (new!) |
-        <a href="{{ site.baseurl }}/archive">archive</a> |
-        <a href="{{ site.baseurl }}/etc">etc</a>
-      </span>
-
-      <hr>
-
-      <h2>latest posts</h2>
-
-      {% include html/archives/home.html %}
-
-      <a href="{{ site.baseurl }}/blog">Read more &rarr;</a>
-
-      <hr>
-
-      <main>
-        {{ content }}
-      </main>
-
-      <hr>
-
-      {% include html/footer.html %}
-
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
-</html>
+<main>
+  {{ content }}
+</main>

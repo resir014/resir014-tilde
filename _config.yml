@@ -60,6 +60,19 @@ author:
   url: https://twitter.com/resir014
   email: resir014@gmail.com
 
+# Navigational menus
+nav:
+  - title: about
+    url: /about
+  - title: blog
+    url: /blog
+  - title: creative
+    url: /creative
+  - title: timeless games
+    url: /timeless-games
+  - title: stuff
+    url: /etc
+
 # Collections
 collections:
   stuff:
