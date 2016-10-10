@@ -2,7 +2,7 @@
   {% assign post_count = site.categories.blog | size %}
   {% if post_count > 0 %}
     {% for post in site.categories.blog limit:5 %}
-    <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
+    <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
       <div class="archive-item">
         <time datetime="{{ post.date | date_to_xmlschema }}" class="archive-date">{{ post.date | date_to_string }}</time>
         <span class="archive-title">{{ post.title }}</span>
