@@ -4,6 +4,10 @@ layout: page
 
 {% if page.banner_url %}
 <img src="{{ site.baseurl }}{{ page.banner_url }}" alt="{{ page.title }}">
+{% elsif page.youtube_embed_id %}
+<div class="video-wrapper">
+  <iframe width="700" height="394" src="https://www.youtube.com/embed/{{ page.youtube_embed_id }}" frameborder="0" allowfullscreen></iframe>
+</div>
 {% endif %}
 
 <h2>genre</h2>

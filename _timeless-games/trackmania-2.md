@@ -1,7 +1,7 @@
 ---
 layout: timeless-games
 title: "TrackMania 2"
-banner_url: /public/images/timeless-games/trackmania-2/trackmania-2-stadium.jpg
+youtube_embed_id: P5Qnws7Njas
 genre:
   - arcade
   - racing
