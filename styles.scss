@@ -22,12 +22,13 @@
 @import "mixins";
 @import "base";
 @import "type";
-// @import "syntax";
+@import "syntax";
 @import "code";
 @import "layout";
 @import "masthead";
 @import "posts";
 @import "pagination";
 @import "message";
+@import "third-party";
 
 @import "theme/resir014";
