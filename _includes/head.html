@@ -7,7 +7,7 @@
     {% if page.title == "Home" %}
       {{ site.title }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }}{% if page.collection %} &middot; {{ page.collection }}{% endif %} &middot; {{ site.title }}
     {% endif %}
   </title>
 
@@ -26,7 +26,7 @@
 
   <meta content="{{ site.title | xml_escape }}" property="og:site_name">
   {% if page.title %}
-  <meta content="{{ page.title | xml_escape }}" property="og:title">
+  <meta content="{{ page.title | xml_escape }}{% if page.collection %} &middot; {{ page.collection | xml_escape }}{% endif %}" property="og:title">
   {% else %}
   <meta content="{{ site.title | xml_escape }}" property="og:title">
   {% endif %}
