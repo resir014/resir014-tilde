@@ -1,7 +1,7 @@
 ---
-category: music
-layout: post
-title: "Justice - Randy (2016)"
+layout: music
+title: "Justice - Randy"
+release_year: 2016
 ---
 
 <div class="video-wrapper">

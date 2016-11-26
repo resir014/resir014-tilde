@@ -1,7 +1,7 @@
 ---
-category: music
-layout: post
-title: "M83 - Solitude (2016)"
+layout: music
+title: "M83 - Solitude"
+release_year: 2016
 ---
 
 <div class="video-wrapper">

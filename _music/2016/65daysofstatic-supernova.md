@@ -1,7 +1,7 @@
 ---
-category: music
-layout: post
-title: "65daysofstatic - Supernova (2016)"
+layout: music
+title: "65daysofstatic - Supernova"
+release_year: 2016
 ---
 
 <div class="video-wrapper">

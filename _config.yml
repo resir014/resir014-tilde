@@ -84,6 +84,9 @@ collections:
   etc:
     output: true
     permalink: /:collection/:path/
+  music:
+    output: true
+    permalink: /:collection/:path/
   timeless-games:
     output: true
     permalink: /:collection/:path/
