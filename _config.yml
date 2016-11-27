@@ -64,10 +64,8 @@ author:
 nav:
   - title: about
     url: /about
-  - title: blog
-    url: /blog
-  - title: creative
-    url: /creative
+  - title: contents
+    url: /contents
   - title: timeless games
     url: /timeless-games
   - title: stuff

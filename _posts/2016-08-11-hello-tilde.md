@@ -1,5 +1,5 @@
 ---
-category: blog
+category: posts
 layout: post
 title: Hello, Tilde
 ---

@@ -1,7 +1,9 @@
 ---
-category: blog
+category: posts
 layout: post
 title: "Jekyll and tilde.town"
+redirect_from:
+- /blog/jekyll-and-tilde-town/
 ---
 
 For someone who wants to get a simple blog up and running but thinks that installing WordPress aren't worth the hassle, [Jekyll](https://jekyllrb.com/) is *the* go-to solution for generating a static page on the fly. You can simply install it, look through many of the themes available out there (or use the default), then write your content in Markdown, Textile, or HTML, and you have yourself a statically generated website!

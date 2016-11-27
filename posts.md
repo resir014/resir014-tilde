@@ -1,9 +1,9 @@
 ---
 layout: feed
-title: blog
-permalink: /blog/
+title: posts
+permalink: /posts/
 paginate:
   limit: false
   per_page: 10
-  category: 'blog'
+  category: 'posts'
 ---

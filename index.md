@@ -3,6 +3,30 @@ layout: home
 title: Home
 ---
 
+# words
+
+### [Posts]({{ site.baseurl }}/posts)
+
+Thoughts on life, and everything in between.
+
+# creative
+
+I try to be creative sometimes. Most of time I did some good stuff, most of the time I didn't.
+
+### [Photography]({{ site.baseurl }}/photography)
+
+Usually I go outside and shoot things with my camera.
+
+### [Music]({{ site.baseurl }}/music)
+
+I listen to songs. I share the ones I like here.
+
+### [Playlists]({{ site.baseurl }}/playlist)
+
+These mixtapes are definitely not fire.
+
+---
+
 # get in touch
 
 ### [Twitter](https://twitter.com/resir014)
@@ -17,26 +41,4 @@ The dumping ground for most of my failed projects.
 
 # projects
 
-### [Screeps TypeScript Starter](https://github.com/screepers/screeps-typescript-starter)
-
-Starter kit for [TypeScript](http://www.typescriptlang.org/)-based [Screeps](https://screeps.com/) AI codes.
-
-### [Clear Sans Webfont](https://resir014.github.io/Clear-Sans-Webfont/)
-
-Webfont conversion of the [Clear Sans](https://01.org/clear-sans) typeface designed by Intel.
-
-### [Tumblr Boilerplate](https://github.com/resir014/Tumblr-Boilerplate)
-
-A base starter kit for developing Tumblr themes.
-
-### [stars-not-hearts](https://github.com/resir014/stars-not-hearts)
-
-Custom CSS to replace the heart icons on [Twitter](https://twitter.com/) and [TweetDeck](https://tweetdeck.twitter.com/) to stars.
-
-### [gnu-social-status](https://resir014.github.io/gnu-social-status/)
-
-Monitors the status of popular GNU Social instances.
-
-### [Most Reliable Lightweight CSS Reset™](https://resir014.github.io/Reliable-Lightweight-CSS-Reset/)
-
-CSS Resets are stupidly long. It’s time to make it simpler.
+View my projects [here](https://resir014.github.io/projects){:target="_blank"}.
