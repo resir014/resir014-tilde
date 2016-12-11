@@ -2,8 +2,8 @@
 layout: feed
 title: posts
 permalink: /posts/
-paginate:
-  limit: false
+pagination:
+  enabled: true
   per_page: 10
   category: 'posts'
 ---

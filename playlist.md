@@ -2,8 +2,8 @@
 layout: feed
 title: playlist
 permalink: /playlist/
-paginate:
-  limit: false
+pagination:
+  enabled: true
   per_page: 10
   category: 'playlist'
 ---

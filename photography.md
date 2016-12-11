@@ -2,8 +2,8 @@
 layout: feed
 title: photography
 permalink: /photography/
-paginate:
-  limit: false
+pagination:
+  enabled: true
   per_page: 10
   category: 'photography'
 ---

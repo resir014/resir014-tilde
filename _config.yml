@@ -44,15 +44,16 @@ timezone: Asia/Jakarta
 
 # Jekyll plugins
 gems:
+  - jekyll-paginate-v2
   - jekyll-redirect-from
   - jekyll-sitemap
-  - octopress-paginate
 
-# Plugin: octopress-paginate
+# Plugin: jekyll-paginate-v2
 pagination:
-  limit:              false
-  per_page:           1
-  permalink:          /page/:num/
+  enabled: true
+  limit: 0
+  sort_reverse: true
+  permalink: /page/:num/
 
 # About/contact
 author:
