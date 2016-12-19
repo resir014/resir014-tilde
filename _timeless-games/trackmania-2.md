@@ -1,6 +1,7 @@
 ---
 layout: timeless-games
 title: "TrackMania 2"
+release_year: 2011
 youtube_embed_id: P5Qnws7Njas
 genre:
   - arcade

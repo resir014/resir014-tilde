@@ -1,6 +1,7 @@
 ---
 layout: timeless-games
 title: "Elite: Dangerous"
+release_year: 2014
 banner_url: /public/images/timeless-games/elite-dangerous/elite-dangerous.jpg
 genre:
   - simulation
