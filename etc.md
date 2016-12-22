@@ -8,6 +8,10 @@ These are some random, maybe dumb stuffs that I used to do some time ago. I am s
 
 ## 2016
 
+### [Instant Telolet](https://resir014.github.io/telolet/){:target="_blank"}
+
+Now you can telolet at home!
+
 ### [DNSCrypt Field Guide](https://resir014.github.io/etc/dnscrypt){:target="_blank"}
 
 A crash course guide on <a href="https://dnscrypt.org/">DNSCrypt</a>, a protocol designed to improve your DNS security.
