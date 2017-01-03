@@ -77,6 +77,9 @@ collections:
   stuff:
     output: true
     permalink: /:path/
+  hidden-posts:
+    output: true
+    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
