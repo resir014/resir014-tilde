@@ -22,7 +22,7 @@ My heart ached.
 
 You know how they say "good friends last a lifetime"? We still remembered each other after being separated for that long, and we've stuck to each other ever since we've met a long time ago. It doesn't matter if that friend exists in your physical realm, or exists merely in the forms of words on your screen, or even the voices of them being transmitted across this series of tubes that you hear, when they have been a really good friend of yours, both of you will remember each other for as long as life can tell.
 
-And that's why I appreciate every single one of my online friends, both in the meatspace, and in the online space.
+And that's why I appreciate every single one of my friends, both in the meatspace, and in the online space.
 
 If you can read this, thank you for being a part of my life.
 
