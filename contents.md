@@ -4,9 +4,7 @@ layout: page
 title: contents
 ---
 
-## words
-
-* [Posts]({{ site.baseurl }}/posts) - Thoughts on life, and everything in between.
+[words]({{ site.baseurl }}/words) - Thoughts on life, and everything in between.
 
 ## creative
 

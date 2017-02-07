@@ -6,9 +6,7 @@ permalink: /about/
 
 Hey there!
 
-This tilde site was originally set up as a landing page for my actual blog at [resir014.github.io](https://resir014.github.io), but then I realised I could just set up a quick blog that mirrors my posts from that page, since tilde.town is a community comprising a bunch of creative people who share their thoughts, might as well share mine over here.
-
-Expect posts that are mostly my personal thoughts on recent goings-on, as well as rambles about computer-related things. I've been trying to write more in the past year or two, so I felt the need to actually have a space where I can drop my thoughts in. I might also diversify my content even further and do more than just blog posts, maybe post my photography collection, and many others too. We'll see.
+This tilde site was originally set up as a landing page for my actual blog at [resir014.github.io](https://resir014.github.io), but then I realised I could just set up some kind of a word/music/art dump, since tilde.town is a community comprising a bunch of creative people who share their thoughts, might as well share mine over here.
 
 You can also contact me on the following sites:
 
