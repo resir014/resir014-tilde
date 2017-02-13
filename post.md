@@ -1,9 +1,9 @@
 ---
 layout: feed
-title: words
-permalink: /words/
+title: posts
+permalink: /post/
 pagination:
   enabled: true
   per_page: 10
-  category: words
+  category: post
 ---

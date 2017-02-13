@@ -1,12 +1,9 @@
 ---
-permalink: /contents/
+permalink: /creative/
 layout: page
-title: contents
+title: creative
+redirect_from: /contents/
 ---
-
-[words]({{ site.baseurl }}/words) - Thoughts on life, and everything in between.
-
-## creative
 
 I try to be creative sometimes. Most of time I did some good stuff, most of the time I didn't.
 

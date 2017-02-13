@@ -1,5 +1,5 @@
 ---
-category: words
+category: post
 layout: post
 title: "Timeless Games"
 ---

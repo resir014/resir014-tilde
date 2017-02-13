@@ -1,5 +1,5 @@
 ---
-category: words
+category: post
 layout: post
 title: "A tribute to the best Twitter exchange I've seen this month"
 ---

@@ -1,5 +1,5 @@
 ---
-category: words
+category: post
 layout: post
 title: "Jekyll and tilde.town"
 redirect_from:
