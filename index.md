@@ -5,7 +5,11 @@ title: Home
 
 # welcome
 
-This is the tilde page for resir014, where I post stuff that generally doesn't fit in on my main website. Read more about me [here]({{ site.baseurl }}/about).
+This is the tilde page for ~resir014, where I post stuff that generally doesn't fit in on my main website. Read more about me [here]({{ site.baseurl }}/about).
+
+```bash
+$ cat ~resir014/readme.txt
+```
 
 You can also find me here:
 
