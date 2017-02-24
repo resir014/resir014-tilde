@@ -34,7 +34,7 @@
   <meta content="{{ site.description | xml_escape }}" property="og:description">
   {% elsif page.lead %}
   <meta content="{{ page.lead | xml_escape }}" property="og:description">
-  {% elsif page.category == 'blog' %}
+  {% elsif page.category == 'post' %}
   <meta content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 35, '…' | xml_escape }}" property="og:description">
   {% else %}
   <meta content="{{ site.description | xml_escape }}" property="og:description">
