@@ -11,14 +11,14 @@
     {% endif %}
   </title>
 
-  {% if page.category == 'blog' %}
+  {% if page.category == 'post' %}
   <meta name="author" content="{{ site.author.name }}">
   {% endif %}
   {% if page.title == "Home" %}
   <meta name="description" content="{{ site.description }}">
   {% elsif page.lead %}
   <meta name="description" content="{{ page.lead }}">
-  {% elsif page.category == 'blog' %}
+  {% elsif page.category == 'post' %}
   <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 35, '…' | xml_escape }}">
   {% else %}
   <meta name="description" content="{{ site.description }}">
