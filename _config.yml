@@ -29,6 +29,7 @@ exclude:
 keep_files:
   - "share"
   - "uploads"
+  - "ttbp"
   - ".htaccess"
 
 # Assets
