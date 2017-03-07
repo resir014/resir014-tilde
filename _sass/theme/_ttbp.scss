@@ -1,3 +1,5 @@
+// Styles specific for ttbp
+
 #tlogs {
   margin-top: 2em;
   margin-bottom: 4em;
@@ -6,12 +8,24 @@
     margin-top: .25rem;
   }
 
+  > p {
+    display: none;
+  }
+
   .entry {
+    margin-top: 2em;
+    margin-bottom: 4em;
+
     h5 {
       margin-top: 0;
       margin-bottom: 1rem;
       color: $body-color-muted;
       font-weight: 400;
+    }
+
+    // Permalink button's CSS is hard-coded, so !important is necessary.
+    p:last-child {
+      font-size: 0.85rem !important;
     }
   }
 }
