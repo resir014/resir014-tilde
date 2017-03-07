@@ -92,6 +92,9 @@ collections:
   music:
     output: true
     permalink: /:collection/:path/
+  photography:
+    output: true
+    permalink: /:collection/:path/
   timeless-games:
     output: true
     permalink: /:collection/:path/

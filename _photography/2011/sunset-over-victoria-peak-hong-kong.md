@@ -1,6 +1,7 @@
 ---
 category: photography
 layout: post
+year: 2011
 title: "Sunset over Victoria Peak, Hong Kong"
 ---
 

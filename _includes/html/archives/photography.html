@@ -1,0 +1,23 @@
+<div class="archive">
+  {% assign post_count = paginator.posts | size %}
+  {% if post_count > 0 %}
+    {% assign sorted = paginator.posts | sort:"year" | reverse %}
+    {% for post in sorted %}
+    <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
+      <div class="archive-item">
+        {% if post.year %}
+        <span class="archive-date">{{ post.year }}</span>
+        {% endif %}
+        <span class="archive-title">{{ post.title }}</span>
+        {% if post.redirect_to or post.external_url %}
+          &raquo;
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  {% else %}
+    <div class="archive-item">
+      <span class="text-muted">No posts available.</span>
+    </div>
+  {% endif %}
+</div>
