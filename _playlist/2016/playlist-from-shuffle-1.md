@@ -1,8 +1,8 @@
 ---
-category: playlist
 layout: post
 title: "Playlist From Shuffle #1"
 redirect_from: /blog/playlist-from-shuffle-1/
+date: 2016-08-24
 ---
 
 Playlist from Shuffle is an idea for a playlist where the order of your playlist is determined by your favourite music player's shuffle feature. The idea for Playlist From Shuffle came up earlier today when I was driving back home whilst listening to my Spotify playlist on shuffle. Upon listening through the shuffled tracks, I've discovered that some of these shuffled tracks flow together really well into one cohesive playlist, so I've decided to experiment with this by taking a snip of some of the tracks in my shuffle list and put them together into a nice playlist, *without* altering the order in which they're shuffled.

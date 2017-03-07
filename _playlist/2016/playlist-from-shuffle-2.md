@@ -1,7 +1,7 @@
 ---
-category: playlist
 layout: post
 title: "Playlist From Shuffle #2"
+date: 2016-09-04
 ---
 
 The second installment of Playlist From Shuffle is here! Grab it while it's hot.
