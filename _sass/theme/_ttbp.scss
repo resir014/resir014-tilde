@@ -1,0 +1,17 @@
+#tlogs {
+  margin-top: 2em;
+  margin-bottom: 4em;
+
+  li + li {
+    margin-top: .25rem;
+  }
+
+  .entry {
+    h5 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: $body-color-muted;
+      font-weight: 400;
+    }
+  }
+}
