@@ -11,51 +11,9 @@
     {% endif %}
   </title>
 
-  {% if page.category == 'post' %}
   <meta name="author" content="{{ site.author.name }}">
-  {% endif %}
-  {% if page.title == "Home" %}
   <meta name="description" content="{{ site.description }}">
-  {% elsif page.lead %}
-  <meta name="description" content="{{ page.lead }}">
-  {% elsif page.category == 'post' %}
-  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 35, '…' | xml_escape }}">
-  {% else %}
-  <meta name="description" content="{{ site.description }}">
-  {% endif %}
 
-  <meta property="og:site_name" content="{{ site.title | xml_escape }}">
-
-  {% if page.category == 'post' %}
-  <meta property="og:title" content="{{ page.title | xml_escape }}">
-  {% else %}
-  {% if page.title %}
-  <meta property="og:title" content="{{ page.title | xml_escape }}{% if page.collection %} &middot; {{ page.collection | xml_escape }}{% endif %}">
-  {% else %}
-  <meta property="og:title" content="{{ site.title | xml_escape }}">
-  {% endif %}
-  {% endif %}
-  {% if page.title == 'Home' %}
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="{{ site.description | xml_escape }}">
-  {% elsif page.lead %}
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="{{ page.lead | xml_escape }}">
-  {% elsif page.category == 'post' %}
-  <meta property="og:type" content="article">
-  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="article:author" content="{{ site.author.name }}">
-  <meta property="article:section" content="{{ page.category }}">
-  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 35, '…' | xml_escape }}">
-  {% else %}
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="{{ site.description | xml_escape }}">
-  {% endif %}
-  {% if page.url %}
-  <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
-  {% endif %}
-
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
