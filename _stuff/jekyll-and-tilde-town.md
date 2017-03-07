@@ -1,8 +1,8 @@
 ---
-category: post
-layout: post
+layout: page
 title: "Jekyll and tilde.town"
 redirect_from:
+- /post/jekyll-and-tilde-town/
 - /posts/jekyll-and-tilde-town/
 - /blog/jekyll-and-tilde-town/
 ---

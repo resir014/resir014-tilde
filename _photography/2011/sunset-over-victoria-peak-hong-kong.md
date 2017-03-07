@@ -5,7 +5,7 @@ year: 2011
 title: "Sunset over Victoria Peak, Hong Kong"
 ---
 
-![DSC04157.jpg]({{ site.baseurl }}/public/images/photography/2016/DSC04157.jpg)
+![DSC04157.jpg]({{ site.baseurl }}/public/images/photography/2011/DSC04157.jpg)
 
 Camera: Sony Alpha A230<br>
 Focal Length: 40mm<br>
