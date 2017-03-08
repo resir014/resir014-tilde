@@ -1,7 +1,7 @@
 <div class="archive">
   {% assign post_count = paginator.posts | size %}
   {% if post_count > 0 %}
-    {% assign sorted = paginator.posts | sort:"release_year" | reverse %}
+    {% assign sorted = paginator.posts %}
     {% for post in sorted %}
     <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
       <div class="archive-item">
