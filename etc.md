@@ -8,6 +8,10 @@ These are some random, maybe dumb stuffs that I used to do some time ago. I am s
 
 ## 2016
 
+### [Jekyll and tilde.town]({{ site.baseurl }}/etc/jekyll-and-tilde-town)
+
+A simple guide on deploying a Jekyll site to [tilde.town](https://tilde.town/).
+
 ### [Instant Telolet](https://resir014.github.io/telolet/){:target="_blank"}
 
 Now you can telolet at home!
