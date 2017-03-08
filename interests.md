@@ -10,4 +10,4 @@ redirect_from:
 A catalogue of my interests. I try to do creative things sometimes.
 
 * [Photography]({{ site.baseurl }}/photography) - Usually I go outside and shoot things with my camera.
-* [Music]({{ site.baseurl }}/music) - I listen to songs. I share the ones I like here.
+* [Music]({{ site.baseurl }}/music) - Songs I like. Songs you might like.
