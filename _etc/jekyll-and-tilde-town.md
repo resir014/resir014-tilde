@@ -23,7 +23,7 @@ First, run `ruby -v` and make note of the current version of Ruby installed on t
 
 Then, open `~/.bashrc` with your favourite text editor, and add the following to the end of the file:
 
-{% highlight bash %}
+```bash
 # use the puppetlabs binary collection
 PATH="/opt/puppetlabs/puppet/bin:$PATH"
 
@@ -35,7 +35,7 @@ fi
 # set rubygem paths
 export GEM_HOME="$(ruby -rubygems -e 'puts Gem.user_dir')"
 export GEM_PATH="$(ruby -rubygems -e 'puts Gem.user_dir')"
-{% endhighlight %}
+```
 
 You will need to restart your bash session at this point.
 
@@ -45,9 +45,9 @@ To test that the new `~/.bashrc` is loaded correctly, run `ruby -v` from the com
 
 Now what we have Ruby properly configured, let's install Jekyll!
 
-{% highlight bash %}
+```bash
 $ gem install bundler jekyll
-{% endhighlight %}
+```
 
 Run `jekyll -v` to make sure it's properly installed.
 
@@ -57,12 +57,12 @@ You can use the default Jekyll theme by issuing the `jekyll new <directory>` com
 
 First, download the theme zip file and extract it.
 
-{% highlight bash %}
+```bash
 $ wget https://github.com/poole/poole/archive/v2.0.0.zip && unzip v2.0.0.zip -d .
 # This will extract the theme file into the `poole-2.0.0` folder. If you want
 # to rename this, run the command below:
 $ mv poole-2.0.0 new-folder-name
-{% endhighlight %}
+```
 
 Now, `cd` to our new folder and open the `_config.yml` file with our favourite editor. There are a few configuration settings that you will need to change, here are some of them:
 
@@ -70,12 +70,16 @@ First, you will need to remove `relative_permalinks: true` from the config.
 
 Then, in the 'Setup' section, change the following settings.
 
-{% highlight yaml %}
+```yaml
 title:               "{your site title}"
 tagline:             "{your site tagline}"
 url:                 https://tilde.town
 baseurl:             "/~username"
-{% endhighlight %}
+
+# If you use ttbp, ignore the generated folder from being wiped out during
+# generation by adding the generated folder into a `keep_files` parameter
+keep_files:          ["path_to_ttbp"]
+```
 
 The `baseurl` config is actually very important! Read more about what it does [here](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/).
 
@@ -91,15 +95,15 @@ Before we start, run `jekyll build` from our Jekyll directory to make sure the J
 
 We will now create our deploy script. From your Jekyll directory, run the following command:
 
-{% highlight bash %}
+```bash
 $ mkdir tasks
 $ touch tasks/deploy.sh
 $ chmod 775 tasks/deploy.sh
-{% endhighlight %}
+```
 
 Next, open the newly created file with your favourite text editor and add the following:
 
-{% highlight bash %}
+```bash
 #!/bin/bash
 #
 # Script to perform a Jekyll deploy to your tilde URL.
@@ -119,13 +123,13 @@ if [ $RESULT_JEKYLL -ne 0 ]; then
 fi
 
 echo -e "\nJekyll build successful."
-{% endhighlight %}
+```
 
 And now, if we want to deploy our new Jekyll website, just run the following command from within your Jekyll directory:
 
-{% highlight bash %}
+```bash
 $ tasks/deploy.sh
-{% endhighlight %}
+```
 
 If the script succeeds, that means you can go to your tilde page and see your new page! (If the CSS seems messed up, you can `Ctrl+F5` refresh it.)
 
@@ -135,7 +139,7 @@ Now that we have our own Jekyll website running, it's time to write our new post
 
 Now, create a Markdown file to get started with your own post. The naming format is *always* `yyyy-mm-dd-post-name.md`, and the standard format for the post file goes like this:
 
-{% highlight text %}
+```
 ---
 category: blog    # this is optional
 layout: post
@@ -143,20 +147,20 @@ title: "Post title"
 ---
 
 Write your post down here, in markdown.
-{% endhighlight %}
+```
 
 If we generate our site now, we'll see that the posts are generated with a prettified permalink (`/yyyy/mm/dd/post-name/`).
 
 For custom pages, we can simply create a file named `page-name.md` with the following header:
 
-{% highlight text %}
+```
 ---
 layout: page
 title: "Page title"
 ---
 
 Write your page content down here, in markdown.
-{% endhighlight %}
+```
 
 The page will be generated with a permalink of `/page-name/`.
 
