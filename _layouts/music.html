@@ -3,7 +3,18 @@ layout: page
 ---
 
 {% if page.release_year %}
-<p class="lead">Year of release: {{ page.release_year }}</p>
+<h2>release year</h2>
+<p>{{ page.release_year }}</p>
+{% endif %}
+
+{% if page.album %}
+<h2>album</h2>
+<p>{{ page.album }}</p>
+{% endif %}
+
+{% if page.genre %}
+<h2>genre</h2>
+<p>{{ page.genre }}</p>
 {% endif %}
 
 {% if page.youtube_embed_id %}
