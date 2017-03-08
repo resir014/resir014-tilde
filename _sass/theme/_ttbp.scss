@@ -1,5 +1,9 @@
 // Styles specific for ttbp
 
+.ttbp-header {
+  margin: 0;
+}
+
 #tlogs {
   margin-top: 2em;
   margin-bottom: 4em;
@@ -21,6 +25,11 @@
       margin-bottom: 1rem;
       color: $body-color-muted;
       font-weight: 400;
+    }
+
+    // `<h1>` and `<h2>` are reserved exclusively for post titles.
+    h1, h2 {
+      margin-top: -0.5rem;
     }
 
     // Permalink button's CSS is hard-coded, so !important is necessary.
