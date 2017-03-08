@@ -18,4 +18,16 @@ layout: page
 {% endif %}
 {% endif %}
 
+{% if page.exif %}
+<h2>EXIF data</h2>
+<ul>
+  <li><strong>Camera:</strong> {{ page.exif.camera }}</li>
+  <li><strong>Focal Length:</strong> {{ page.exif.zoom }}</li>
+  <li><strong>Shutter Speed:</strong> {{ page.exif.shutter_speed }}</li>
+  <li><strong>Aperture:</strong> {{ page.exif.aperture }}</li>
+  <li><strong>ISO/Film:</strong> {{ page.exif.iso }}</li>
+  <li><strong>Taken:</strong> {{ page.exif.taken }}</li>
+</ul>
+{% endif %}
+
 {{ content }}
