@@ -1,11 +1,17 @@
 ---
 category: photography
-layout: post
+layout: photography
 year: 2011
 title: "Sunset over Victoria Peak, Hong Kong"
+photo_url: /public/images/photography/2011/DSC04157.jpg
+alt_text: DSC04157.jpg
 ---
 
-![DSC04157.jpg]({{ site.baseurl }}/public/images/photography/2011/DSC04157.jpg)
+<figure>
+  <img src="{{ site.baseurl }}/public/images/photography/2011/DSC04157.jpg" alt="DSC04157.jpg">
+</figure>
+
+## EXIF Data
 
 Camera: Sony Alpha A230<br>
 Focal Length: 40mm<br>

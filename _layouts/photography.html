@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+{% if page.photo_url %}
+{% if page.alt_text %}
+<figure>
+  <a href="{{ site.baseurl }}{{ page.photo_url }}">
+    <img src="{{ site.baseurl }}{{ page.photo_url }}" alt="{{ page.alt_text }}">
+  </a>
+</figure>
+{% else %}
+<figure>
+  <a href="{{ site.baseurl }}{{ page.photo_url }}">
+    <img src="{{ site.baseurl }}{{ page.photo_url }}">
+  </a>
+</figure>
+{% endif %}
+{% endif %}
+
+{{ content }}
