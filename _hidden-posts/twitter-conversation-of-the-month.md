@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: post
 title: "A tribute to the best Twitter exchange I've seen this month"
 date: 2016-12-13

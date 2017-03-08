@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: post
 title: "Something Amazing that Happened in 2016"
 date: 2017-01-03
