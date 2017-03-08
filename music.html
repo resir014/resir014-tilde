@@ -10,7 +10,9 @@ pagination:
   sort_reverse: false
 ---
 
+{% if paginator.page == 1 %}
 <p>Songs I like. Songs you might like.</p>
+{% endif %}
 
 {% include html/archives/music.html %}
 

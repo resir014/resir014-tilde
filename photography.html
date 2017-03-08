@@ -10,6 +10,10 @@ pagination:
   sort_reverse: true
 ---
 
+{% if paginator.page == 1 %}
+<p>Usually I go outside and shoot things with my camera.</p>
+{% endif %}
+
 {% include html/archives/photography.html %}
 
 {% include html/pagination.html %}

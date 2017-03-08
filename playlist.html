@@ -8,4 +8,6 @@ pagination:
   collection: playlist
 ---
 
-I've been trying to make playlists lately. Here are some of them.
+{% if paginator.page == 1 %}
+<p>These mixtapes are definitely not fire.</p>
+{% endif %}
