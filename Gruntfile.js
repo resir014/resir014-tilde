@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   // Load all tasks matching the `grunt-*` pattern
   require('load-grunt-tasks')(grunt);
@@ -22,18 +22,18 @@ module.exports = function(grunt) {
           src: ['**/*.{png,jpg,gif}'],
           dest: 'public/images'
         }]
-      },
+      }
     },
 
     // Lint SCSS files
     scsslint: {
       test: [
-        '_scss/**/*.scss',
+        '_scss/**/*.scss'
       ],
       options: {
         bundleExec: true,
         config: '.scss-lint.yml'
-      },
+      }
     },
 
     // Builds Jekyll website to `_site` directory
