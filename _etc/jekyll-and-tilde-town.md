@@ -64,7 +64,7 @@ $ wget https://github.com/poole/poole/archive/v2.0.0.zip && unzip v2.0.0.zip -d 
 $ mv poole-2.0.0 new-folder-name
 ```
 
-Now, `cd` to our new folder and open the `_config.yml` file with our favourite editor. There are a few configuration settings that you will need to change, here are some of them:
+Now, `cd` to our new folder and open the `_config.yml` file with your favourite editor. There are a few configuration settings that you will need to change, here are some of them:
 
 First, you will need to remove `relative_permalinks: true` from the config.
 
