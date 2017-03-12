@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey there!
 
-This tilde site was originally set up as a landing page for my actual blog at [resir014.github.io](https://resir014.github.io), but then I realised I could just set up some kind of a word/music/art dump, since tilde.town is a community comprising a bunch of creative people who share their thoughts, might as well share mine over here.
+This tilde site was originally set up as a landing page for my actual blog at [resir014.github.io](https://resir014.github.io), but then over the course of a few months, I've started slowly transitioning this page into some sort of a catalogue of my interests. My new landing page is available [here](https://resir014.xyz/).
 
 You can also contact me on the following sites:
 

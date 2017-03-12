@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-Welcome to the tilde page for ~resir014. This is where I post stuff that generally doesn't fit in on my main website. Read more about me [here]({{ site.baseurl }}/about).
+Welcome to the tilde page for ~resir014. This tilde page serves as a catalogue of my interests. Read more about me [here]({{ site.baseurl }}/about).
 
 ```bash
 $ cat ~resir014/readme.txt
@@ -11,7 +11,8 @@ $ cat ~resir014/readme.txt
 
 You can also find me here:
 
-* [Main website](https://resir014.github.io/) - Writings, ramblings, and thoughts about computers in general.
+* [Website](https://resir014.xyz/) - My somewhat generic landing page.
+* [GitHub Pages blog](https://resir014.github.io/) - Writings, ramblings, and thoughts about computers in general.
 * [Twitter](https://twitter.com/resir014) - Where I mostly shitpost about computers and other generic things.
 * [GitHub](https://github.com/resir014) - The dumping ground for most of my failed projects.
 
