@@ -37,7 +37,7 @@ To deploy the site, run this command.
 
 ```bash
 # Run this command from the server
-$ tasks/deploy.sh
+$ tasks/deploy
 ```
 
 Special thanks
