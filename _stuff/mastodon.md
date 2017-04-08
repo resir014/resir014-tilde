@@ -29,4 +29,4 @@ Opinions expressed on any of my accounts are of my own. It does not represent th
 
 ### Content Warnings / NSFW posts
 
-I will make sure to tag posts behind content warnings (CW) and/or NSFW where I found necessary (e.g. on political posts, controversial topics, etc.), but be aware that sometimes I will post some untagged stuff that are not compatible with your CW standards. If you think certain topics need to be CW'd, you can politely ask me on one of my accounts, and I'll make sure to keep that in mind next time I post about the same topic.
+I will make sure to tag posts behind content warnings (CW) and/or NSFW where I found necessary (e.g. on political posts, controversial topics, etc.), but be aware that sometimes I will post some untagged stuff that are not compatible with your CW/NSFW standards. If you think certain topics need to be tagged as CW/NSFW, you can politely ask me on one of my accounts, and I'll make sure to keep that in mind next time I post about the same topic.
