@@ -27,6 +27,6 @@ Boosted posts do not imply endorsements, they simply mean that these posts conta
 
 Opinions expressed on any of my accounts are of my own. It does not represent that of my friends, my followers, my family, or my employer.
 
-### Content Warnings
+### Content Warnings / NSFW posts
 
-I will make sure to put some posts behind content warnings (CW) where I found necessary (e.g. on political posts, controversial topics, etc.), but be aware that sometimes I will post stuff that are not compatible with your CW standards. If you think certain topics need to be CW'd, you can politely ask me on one of my accounts, and I'll make sure to keep that in mind next time I post about the same topic.
+I will make sure to tag posts behind content warnings (CW) and/or NSFW where I found necessary (e.g. on political posts, controversial topics, etc.), but be aware that sometimes I will post some untagged stuff that are not compatible with your CW standards. If you think certain topics need to be CW'd, you can politely ask me on one of my accounts, and I'll make sure to keep that in mind next time I post about the same topic.
