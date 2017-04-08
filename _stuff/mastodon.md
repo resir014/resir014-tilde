@@ -17,7 +17,7 @@ Below is a list of my verified accounts. If you see me posting on one of these n
 
 ## Disclaimer / Terms of Engagement
 
-This is a blanket disclaimer which applies to all instances that I own and included on the preceding list. Should there be changes to these terms, I will notify my followers accordingly.
+This is a blanket disclaimer which applies to all instances that I have an account in. Should there be changes to these terms, I will notify my followers accordingly.
 
 ### Boosted posts
 
