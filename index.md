@@ -13,6 +13,7 @@ You can also find me here:
 
 * [Website](https://resir014.xyz/) - My somewhat generic landing page.
 * [GitHub Pages blog](https://resir014.github.io/) - Writings, ramblings, and thoughts about computers in general.
+* [Mastodon]({{ site.baseurl }}/mastodon) - A fancy distributed social network.
 * [Twitter](https://twitter.com/resir014) - Where I mostly shitpost about computers and other generic things.
 * [GitHub](https://github.com/resir014) - The dumping ground for most of my failed projects.
 
