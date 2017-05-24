@@ -6,6 +6,12 @@ title: /etc/ - the land of 'anything goes'
 
 These are some random, maybe dumb stuffs that I used to do some time ago. I am solely not responsible for what might happen to your sanity after viewing these.
 
+## 2017
+
+### [tildetv](https://tilde.town/~resir014/tildetv)
+
+An alternative way to enjoy visual media on the internet. A playlist of YouTube videos curated by [tilde.town](https://tilde.town/) members.
+
 ## 2016
 
 ### [Jekyll and tilde.town]({{ site.baseurl }}/etc/jekyll-and-tilde-town)
