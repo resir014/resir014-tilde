@@ -1,7 +1,7 @@
 ---
 noindex: true
 sitemap: false
-title: posts
+title: Posts
 permalink: /post/
 redirect_to: /ttbp
 ---

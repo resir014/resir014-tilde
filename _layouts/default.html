@@ -5,23 +5,18 @@
 
   <body>
 
+    {% include html/header.html %}
+
     <div class="container content">
-
-      {% include html/masthead.html %}
-
-      <hr>
 
       <main>
         {{ content }}
       </main>
-
-      <hr>
 
       {% include html/footer.html %}
 
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>

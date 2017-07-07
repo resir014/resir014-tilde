@@ -1,7 +1,7 @@
 ---
 permalink: /interests/
 layout: page
-title: interests
+title: Interests
 redirect_from:
   - /contents/
   - /creative/

@@ -3,11 +3,69 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  {% if page.date %}
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  <header class="post-header{% if page.header_image_url %} with-image{% endif %}">
+    {% if page.header_image_url %}
+      <img src="{{ site.baseurl }}{{ page.header_image_url }}" alt="{{ page.title }}" height="400px">
+    {% endif %}
+    <div class="post-header-inner{% if page.external_url %} post-external-link{% endif %}">
+      {% if page.external_url %}
+        <h1 class="post-title">
+          <a href="{{ page.external_url }}" target="_blank">{{ page.title }} &raquo;</a>
+        </h1>
+      {% else %}
+        <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %}
+      <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+      {% capture words %}
+        {{ content | number_of_words | minus: 180 }}
+      {% endcapture %}
+      {% unless words contains "-" %}
+        <span class="post-reading-time">{{ words | plus: 180 | divided_by: 180 | append: " minutes to read" }}</span>
+      {% endunless %}
+    </div>
+  </header>
+  {% if page.subtitle %}
+  <div class="post-subtitle">
+    <span>{{ page.subtitle }}</span>
+  </div>
+  {% elsif page.abstract %}
+  <div class="post-subtitle">
+    <span>{{ page.abstract }}</span>
+  </div>
+  {% elsif page.lead %}
+  <div class="post-subtitle">
+    <span>{{ page.lead }}</span>
+  </div>
   {% endif %}
-  <section class="post-content">
-    {{ content }}
-  </section>
+  {{ content }}
 </article>
+
+{% if page.comments %}
+<div class="widget comments">
+  <h3 class="widget-title">Comments</h3>
+  {% include disqus-thread.html %}
+</div>
+{% endif %}
+
+{% if site.related_posts != empty %}
+<aside class="widget related">
+  <h3 class="widget-title">Recent posts</h3>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}"{% if post.external_url %} target="_blank"{% endif %}>
+          <span{% if post.external_url %} class="is-external"{% endif %}>
+            {{ post.title }}
+            {% if post.redirect_to or post.external_url %}
+              &raquo;
+            {% endif %}
+          </span>
+          <small>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+          </small>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

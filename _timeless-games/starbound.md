@@ -2,7 +2,7 @@
 layout: timeless-games
 title: "Starbound"
 release_year: 2016
-banner_url: /public/images/timeless-games/starbound/screenshot.jpg
+header_image_url: /public/images/timeless-games/starbound/screenshot.jpg
 genre:
   - indie
   - sandbox

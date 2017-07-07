@@ -1,12 +1,20 @@
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a class="pagination-item older" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+    <div class="pagination-column">
+      <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous page</a>
+    </div>
   {% else %}
-    <span class="pagination-item older">Previous</span>
+    <div class="pagination-column">
+      <span class="pagination-item pagination-item-disabled">Previous page</span>
+    </div>
   {% endif %}
   {% if paginator.next_page %}
-    <a class="pagination-item newer" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+    <div class="pagination-column">
+      <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next page</a>
+    </div>
   {% else %}
-    <span class="pagination-item newer">Next</span>
+    <div class="pagination-column">
+      <span class="pagination-item pagination-item-disabled">Next page</span>
+    </div>
   {% endif %}
 </div>

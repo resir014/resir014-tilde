@@ -2,7 +2,7 @@
 layout: timeless-games
 title: "Minecraft"
 release_year: 2011
-banner_url: /public/images/timeless-games/minecraft/minecraft-first-screenshot.png
+header_image_url: /public/images/timeless-games/minecraft/minecraft-first-screenshot.png
 genre:
   - indie
   - sandbox

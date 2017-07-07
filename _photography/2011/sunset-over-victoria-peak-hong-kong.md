@@ -14,11 +14,4 @@ exif:
   taken: Apr 25, 2011
 ---
 
-## EXIF Data
-
-Camera: Sony Alpha A230<br>
-Focal Length: 40mm<br>
-Shutter Speed: 1/320s<br>
-Aperture: f/11<br>
-ISO/Film: 100<br>
-Taken: Apr 25, 2011
+Probably the photo that I'm most proud of.

@@ -3,6 +3,13 @@ layout: default
 ---
 
 <article class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
+  <header class="page-header{% if page.header_image_url %} with-image{% endif %}">
+    {% if page.header_image_url %}
+      <img src="{{ site.baseurl }}{{ page.header_image_url }}" alt="{{ page.title }}" height="400px">
+    {% endif %}
+    <div class="page-header-inner">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </div>
+  </header>
   {{ content }}
 </article>
