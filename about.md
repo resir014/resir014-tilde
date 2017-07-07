@@ -18,7 +18,7 @@ Or mail me privately through alpine.
 
 ## About this website
 
-This site is generated using [Jekyll](https://jekyllrb.com/), uses a heavily-modified version of the [Poole](http://getpoole.com/) theme, and is developed on a mid-range laptop I basically use everyday, from doing university works, to playing games.
+This site is generated using [Jekyll](https://jekyllrb.com/), uses a slightly-modified version of [Roundabout](http://blvd.space/roundabout), a theme initially designed to be the base of all my websites. It's also available for everyone, so feel free to give it a try!
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
   <img alt="Creative Commons License" style="border-radius:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png">
