@@ -118,9 +118,10 @@ $post-header-external-color: $base0F;
 $post-subtitle-highlight-color: $base0A;
 $post-archive-title-color: $heading-color;
 $post-archive-date-color: $body-color-muted;
-$post-archive-background-color: lighten($base0C, 20%);
-$post-archive-external-background-color: lighten($base0E, 20%);
-$post-archive-external-background-color: darken($post-archive-external-background-color, 5%);
+$post-archive-background-color: transparent;
+$post-archive-background-hover-color: lighten($base0C, 25%);
+$post-archive-external-background-color: lighten($base0E, 15%);
+$post-archive-external-background-hover-color: darken($post-archive-external-background-color, 5%);
 
 // Pagination
 $pagination-color: $heading-color;
