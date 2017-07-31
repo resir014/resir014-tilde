@@ -8,3 +8,4 @@ title: "words"
 * [(3).txt]({{ site.baseurl }}/words/(3).txt)
 * [(4).txt]({{ site.baseurl }}/words/(4).txt)
 * [(5).txt]({{ site.baseurl }}/words/(5).txt)
+* [(6).txt]({{ site.baseurl }}/words/(6).txt)
