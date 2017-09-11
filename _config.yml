@@ -30,6 +30,7 @@ keep_files:
   - "share"
   - "uploads"
   - "ttbp"
+  - "words"
   - "tildetv"
   - ".htaccess"
 
