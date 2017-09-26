@@ -27,8 +27,7 @@
     'bg-base0A',
     'bg-base0B',
     'bg-base0C',
-    'bg-base0D',
-    'bg-base0E'
+    'bg-base0D'
   ]
 
   // select our random flavor text from the above array
