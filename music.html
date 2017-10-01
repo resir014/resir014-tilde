@@ -11,7 +11,9 @@ pagination:
 ---
 
 {% if paginator.page == 1 %}
-<p>Songs I like. Songs you might like.</p>
+<div class="post-subtitle">
+  <span>Songs I like. Songs you might like.</span>
+</div>
 {% endif %}
 
 {% include html/archives/music.html %}
