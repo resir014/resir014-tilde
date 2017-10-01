@@ -39,7 +39,7 @@
 .masthead-flavor {
   a,
   span {
-    @include highlighted-text($masthead-title-background-color);
+    @include highlighted-text($masthead-flavour-background-color);
     font-family: $font-family-serif;
     color: $heading-color;
     line-height: 1.6;

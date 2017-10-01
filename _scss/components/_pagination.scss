@@ -27,13 +27,14 @@
 .pagination-item {
   display: block;
   padding: 1rem;
-  color: $pagination-color;
-  border: 3px solid $pagination-color;
+  color: $link-color;
+  border: 3px solid $link-color;
 
   &:hover {
-    color: $pagination-color;
+    color: $inverse-heading-color;
     text-decoration: none;
-    background-color: $pagination-background-hover-color;
+    border-color: $link-hover-color;
+    background-color: $link-hover-color;
   }
 }
 
@@ -44,6 +45,7 @@
 
   &:hover {
     color: $pagination-disabled-color;
+    border-color: $pagination-disabled-color;
     background-color: $pagination-disabled-background-hover-color;
   }
 }

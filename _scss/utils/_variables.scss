@@ -67,11 +67,24 @@ $base0D: #33B5E1;
 $base0E: #A363D5;
 $base0F: #D73C9A;
 
-
 // Font stack
 $font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;;
 $font-family-serif: "Zilla Slab", Georgia, "Times New Roman", Times, serif;
 $font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// Media breakpoints
+// (NOTE: Always use @media (min-width) when using these variables.)
+$media-breakpoint-xs: 0;
+$media-breakpoint-sm: 576px;
+$media-breakpoint-md: 768px;
+$media-breakpoint-lg: 992px;
+$media-breakpoint-xl: 1200px;
+
+// Dimensions for grid
+$max-width: 750px;
+$max-width-lg: 970px;
+$container-padding: 1.5rem;
+$container-padding-lg: 3rem;
 
 // Font dimensions
 $font-size: 16px;
@@ -80,18 +93,18 @@ $line-height: 1.25;
 $line-height-lg: 1.375;
 
 // Body text/background colors
-$body-bg: $base07;
-$body-color: $base01;
-$body-color-muted: $base04;
-$heading-color: $base00;
-$inverse-bg: $base00;
-$inverse-color: $base06;
-$inverse-color-muted: $base04;
-$inverse-heading-color: $base07;
+$body-bg: $white;
+$body-color: lighten($black, 25%);
+$body-color-muted: lighten($black, 75%);
+$heading-color: $black;
+$inverse-bg: darken($black, 12.5%);
+$inverse-color: darken($white, 25%);
+$inverse-color-muted: darken($white, 75%);
+$inverse-heading-color: $white;
 
 // Links
-$link-color: $base0D;
-$link-hover-color: darken($link-color, 25%);
+$link-color: $neonblue-2;
+$link-hover-color: $neonblue-3;
 
 // Tables & borders
 $border-color: $base06;
@@ -121,7 +134,7 @@ $post-archive-title-color: $heading-color;
 $post-archive-date-color: $body-color-muted;
 $post-archive-background-color: transparent;
 $post-archive-background-hover-color: lighten($base0C, 25%);
-$post-archive-external-background-color: lighten($base0E, 15%);
+$post-archive-external-background-color: $neonpurple-1;
 $post-archive-external-background-hover-color: darken($post-archive-external-background-color, 5%);
 
 // Pagination
@@ -132,9 +145,10 @@ $pagination-disabled-background-hover-color: darken($body-bg, 5%);
 
 // Masthead
 $masthead-border-color: $heading-color;
-$masthead-title-color: $base07;
-$masthead-title-hover-color: $base07;
-$masthead-title-background-color: $base00;
+$masthead-title-color: $inverse-heading-color;
+$masthead-title-hover-color: $inverse-heading-color;
+$masthead-title-background-color: $inverse-bg;
+$masthead-flavour-background-color: $orange-3;
 $masthead-link-color: darken($link-color, 25%);
 $masthead-link-background-color: darken($body-bg, 5%);
 $masthead-link-active-color: $heading-color;
@@ -154,19 +168,5 @@ $skill-level-average: $base0B;
 $skill-level-proficient: $base0D;
 
 // ttbp specific variables
-$ttbp-permalink-date-link-color: lighten($base0E, 15%);
-$ttbp-permalink-background-color: lighten($base0E, 15%);
-
-// Media breakpoints
-// (NOTE: Always use @media (min-width) when using these variables.)
-$media-breakpoint-xs: 0;
-$media-breakpoint-sm: 576px;
-$media-breakpoint-md: 768px;
-$media-breakpoint-lg: 992px;
-$media-breakpoint-xl: 1200px;
-
-// Dimensions for grid
-$max-width: 750px;
-$max-width-lg: 970px;
-$container-padding: 1.5rem;
-$container-padding-lg: 3rem;
+$ttbp-permalink-date-link-color: $neonpurple-1;
+$ttbp-permalink-background-color: $neonpurple-1;

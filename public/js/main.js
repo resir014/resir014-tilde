@@ -1,26 +1,29 @@
 ;(function () {
   var flavors = [
-    'has an internet connection',
-    'makes stupid web things',
+    'is a web developer',
     'writes code',
     'drives an Asp Explorer',
-    'stands up for net neutrality',
+    'has a tilde page',
     'is online',
+    'is offline',
+    'is typing',
     'plays video games',
     'has a phone',
     'takes photos',
     'is afraid of dogs',
     'hates TV',
-    'dumps abandoned projects on GitHub',
+    'likes vaporwave',
+    'does React',
     'does TypeScript',
     'does JavaScript',
+    'does node.js',
     'listens to music',
     'has a laptop',
-    'is a web developer',
+    'wrote this flavor text',
+    'has an internet connection',
     'sleeps at night',
     'is not a furry',
-    'probably likes you',
-    'wants to be your friend'
+    'probably likes you'
   ]
 
   var colors = [
@@ -34,5 +37,4 @@
   var flavorText = document.getElementById('flavorText')
 
   flavorText.innerHTML = flavors[Math.floor(Math.random() * flavors.length)]
-  flavorText.className = colors[Math.floor(Math.random() * colors.length)]
 })()
