@@ -3,7 +3,9 @@ layout: home
 title: Home
 ---
 
-Welcome to the tilde page for ~resir014. This tilde page serves as a catalogue of my interests. Read more about me [here]({{ site.baseurl }}/about).
+Welcome to the tilde page for ~resir014. This tilde page serves as a catalogue of my interests.
+
+You can read more about me <a href="{{ site.baseurl }}/about">here</a>, or here:
 
 ```bash
 $ cat ~resir014/readme.txt
@@ -19,6 +21,6 @@ You can also find me here:
 
 Looking for tildetv? [Click here](https://tilde.town/~resir014/tildetv){:target="_blank"}.
 
-# projects
+# Projects
 
 View my projects [here](https://resir014.github.io/projects){:target="_blank"}.
