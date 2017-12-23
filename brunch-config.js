@@ -13,7 +13,9 @@ exports.files = {
     },
   },
   stylesheets: {
-    joinTo: 'stylesheets/app.css',
+    joinTo: {
+      'stylesheets/app.css': 'app/styles/app.scss',
+    },
   },
 };
 
