@@ -1,0 +1,23 @@
+{{ define "title" }}
+  Photography &middot; {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<div class="container content">
+  <article class="article">
+    <h1 class="article-title">Timeless Games</h1>
+    <div class="article-content">
+      <p>The day I started transitioning into a full-time PC gamer was the day I started exploring all kinds of games that I could ever get my hands on, from any genre and background.</p>
+      <p>Among all of the games that I own, very few have I realised the importance of these games, especially their role in shaping up who I am today. Some of these games have their own "special thing" which gripped me to the point that I was hooked, and the moments that I experienced while playing them have always been worth it. These games are worthy of mentioning just for that sole reason.</p>
+      <p>And that's the reason I set up Timeless Games. It is a curated list of all the games that I've spent the most time on, had the most enjoyment in, and which experience I'll remember fondly for many years to come. Most of the games featured will be PC games, but I'll try to include some console games as well.</p>
+      <div class="games-list">
+      <!-- Ranges through content/post/*.md -->
+      {{ range .Data.Pages }}
+        <div class="games-list-item">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}
