@@ -1,4 +1,4 @@
-/* eslint-disable global-require */
+/* eslint-disable global-require, import/no-extraneous-dependencies */
 
 exports.paths = {
   public: 'static',
@@ -10,11 +10,11 @@ exports.files = {
     joinTo: {
       'javascripts/app.js': /^app/,
       'javascripts/vendor.js': /(^bower_components|vendor)[\\/]/,
-    }
+    },
   },
   stylesheets: {
-    joinTo: 'stylesheets/app.css'
-  }
+    joinTo: 'stylesheets/app.css',
+  },
 };
 
 exports.plugins = {
