@@ -92,11 +92,11 @@ tbody {
   tr {
     &:nth-child(odd) {
       td {
-        background-color: $grey80;
+        background-color: lighten($grey90, 2.5%);
       }
 
       tr {
-        background-color: $grey80;
+        background-color: $grey90;
       }
     }
   }

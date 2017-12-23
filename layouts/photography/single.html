@@ -7,8 +7,44 @@
     <span class="article-category">Photography</span>
     <h1 class="article-title">{{ .Title }}</h1>
     <div class="article-content">
-      <img src="{{ .Params.Photo_URL | relURL }}">
+      <figure class="photo-item">
+        <img src="{{ .Params.Photo_URL | relURL }}">
+      </figure>
       {{ .Content }}
+      <table>
+        <thead>
+          <tr>
+            <th>EXIF Property</th>
+            <th>EXIF Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Camera</td>
+            <td>{{ .Params.Exif.Camera }}</td>
+          </tr>
+          <tr>
+            <td>Zoom</td>
+            <td>{{ .Params.Exif.Zoom }}</td>
+          </tr>
+          <tr>
+            <td>Shutter speed</td>
+            <td>{{ .Params.Exif.Shutter_Speed }}</td>
+          </tr>
+          <tr>
+            <td>Aperture</td>
+            <td>{{ .Params.Exif.Aperture }}</td>
+          </tr>
+          <tr>
+            <td>ISO</td>
+            <td>{{ .Params.Exif.ISO }}</td>
+          </tr>
+          <tr>
+            <td>Taken</td>
+            <td>{{ .Params.Exif.Taken }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </article>
 </div>

@@ -46,4 +46,12 @@
   .article-content {
     margin-top: 1rem;
   }
+
+  .photo-item {
+    border: 10px solid $grey70;
+
+    img {
+      margin: 0;
+    }
+  }
 }
