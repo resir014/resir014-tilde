@@ -1,0 +1,10 @@
+{{ define "title" }}
+  {{ .Title }} – {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<article class="post">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <time class="post-date" datetime="{{ .Site.Params.DateForm }}">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</time>
+  {{ .Content }}
+</article>
+{{ end }}

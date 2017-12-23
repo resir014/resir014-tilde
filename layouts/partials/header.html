@@ -7,11 +7,11 @@
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
-          <a href="/~resir014/photography/">{{ .Name }}</a>
+          <a href="{{ .URL }}">{{ .Name }}</a>
         </div>
       {{ else }}
         <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
-          <a href="/~resir014/photography/">{{ .Name }}</a>
+          <a href="{{ .URL }}">{{ .Name }}</a>
         </div>
       {{ end }}
     {{ end }}
