@@ -1,0 +1,103 @@
+// Set up a decent box model on the root element
+html {
+  box-sizing: border-box;
+}
+
+// Make all elements from the DOM inherit from the parent box-sizing
+// Since `*` has a specificity of 0, it does not override the `html` value
+// making all elements inheriting from the root box-sizing value
+// See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// Remove default padding.
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  font-family: $root-font-family;
+  font-size: $root-font-size;
+  line-height: $root-line-height;
+}
+
+body {
+  color: $body-color;
+  background-color: $body-bg;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+// No `:visited` state is required by default (browsers will use `a`)
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  // `:focus` is linked to `:hover` for basic accessibility
+  @include on-event {
+    text-decoration: underline;
+  }
+
+  strong {
+    color: inherit;
+  }
+}
+
+del {
+  a {
+    color: $body-color;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+}
+
+// Figure elements
+figure {
+  margin: 2rem 0;
+}
+
+figcaption {
+  font-size: 80%;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid $border-color;
+  font-size: 85%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid $border-color;
+}
+
+th {
+  text-align: left;
+}
+
+tbody {
+  tr {
+    &:nth-child(odd) {
+      td {
+        background-color: $grey80;
+      }
+
+      tr {
+        background-color: $grey80;
+      }
+    }
+  }
+}

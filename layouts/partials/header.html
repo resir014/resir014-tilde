@@ -1,0 +1,20 @@
+<header class="container">
+  <div class="header-logo">
+    <a class="header-logo__link" href="/">~resir014</a>
+  </div>
+  <nav class="header-menu">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
+          <a href="/~resir014/photography/">{{ .Name }}</a>
+        </div>
+      {{ else }}
+        <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
+          <a href="/~resir014/photography/">{{ .Name }}</a>
+        </div>
+      {{ end }}
+    {{ end }}
+  </nav>
+
+</header>

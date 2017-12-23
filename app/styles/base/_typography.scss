@@ -1,0 +1,118 @@
+// Typography
+//
+// Headings, body text, lists, and other misc typographic elements.
+
+// Headings mainly follow the typography scaling guidelines outlined here:
+// https://typecast.com/blog/a-more-modern-scale-for-web-typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.414rem;
+  margin-bottom: .5rem;
+  color: $white;
+  font-weight: 600;
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.441rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+}
+
+h3 {
+  font-size: 1.563rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: $white;
+}
+
+ul,
+ol,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: .5rem;
+}
+
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid $border-color;
+}
+
+blockquote {
+  margin: .8rem 0;
+  padding: .5rem 1rem;
+  border-left: .25rem solid $border-color;
+  color: $grey50;
+
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: 30em) {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+
+// Code
+
+code,
+pre {
+  font-family: $code-font-family;
+}
+
+code {
+  padding: .25em .5em;
+  border-radius: 3px;
+  background-color: darken($body-bg, 10%);
+  color: lighten($body-color, 10%);
+  font-size: 85%;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  code {
+    padding: 0;
+    background-color: transparent;
+    color: $grey60;
+    font-size: 100%;
+  }
+}

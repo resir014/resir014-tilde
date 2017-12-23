@@ -1,0 +1,89 @@
+// Primary colour scheme based on Firefox Photon colors:
+// https://design.firefox.com/photon/visuals/color.html
+$blue40: #45a1ff !default;
+$blue50: #0a84ff !default;
+$blue60: #0060df !default;
+$blue70: #003eaa !default;
+$blue80: #002275 !default;
+$blue90: #000f40 !default;
+$teal50: #00feff !default;
+$teal60: #00c8d7 !default;
+$teal70: #008ea4 !default;
+$teal80: #005a71 !default;
+$teal90: #002d3e !default;
+$magenta50: #ff1ad9 !default;
+$magenta60: #ed00b5 !default;
+$magenta70: #b5007f !default;
+$magenta80: #7d004f !default;
+$magenta90: #440027 !default;
+$green50: #30e60b !default;
+$green60: #12bc00 !default;
+$green70: #058b00 !default;
+$green80: #006504 !default;
+$green90: #003706 !default;
+$yellow50: #ffe900 !default;
+$yellow60: #d7b600 !default;
+$yellow70: #a47f00 !default;
+$yellow80: #715100 !default;
+$yellow90: #3e2800 !default;
+$red50: #ff0039 !default;
+$red60: #d70022 !default;
+$red70: #a4000f !default;
+$red80: #5a0002 !default;
+$red90: #3e0200 !default;
+$purple50: #9400ff !default;
+$purple60: #8000d7 !default;
+$purple70: #6200a4 !default;
+$purple80: #440071 !default;
+$purple90: #25003e !default;
+$orange50: #ff9400 !default;
+$orange60: #d76e00 !default;
+$orange70: #a44900 !default;
+$orange80: #712b00 !default;
+$orange90: #3e1300 !default;
+$ink70: #363959 !default;
+$ink80: #202340 !default;
+$ink90: #0f1126 !default;
+$grey10: #f9f9fa !default;
+$grey20: #ededf0 !default;
+$grey30: #d7d7db !default;
+$grey40: #b1b1b3 !default;
+$grey50: #737373 !default;
+$grey60: #4a4a4f !default;
+$grey70: #38383d !default;
+$grey80: #2a2a2e !default;
+$grey90: #0c0c0d !default;
+$black: #000 !default;
+$white: #fff !default;
+
+$brand-outlook: #0078d7 !default;
+$brand-twitter: #1da1f2 !default;
+$brand-paypal: #009cde !default;
+
+$root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
+$code-font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+$root-font-size: 16px !default;
+$root-font-size-lg: 18px !default;
+$root-line-height: 1.45 !default;
+
+$body-color: $grey40 !default;
+$body-muted-color: $grey60 !default;
+$body-bg: $grey90 !default;
+$link-color: $blue40 !default;
+
+$grid-breakpoint-xs: 0 !default;
+$grid-breakpoint-sm: 576px !default;
+$grid-breakpoint-md: 768px !default;
+$grid-breakpoint-lg: 992px !default;
+$grid-breakpoint-xl: 1200px !default;
+
+$container-width-sm: 540px;
+$container-width-md: 720px;
+$container-width-lg: 960px;
+$container-width-xl: 1140px;
+
+$border-color: $grey80 !default;
+
+$code-font-family: Menlo, Monaco, "Courier New", monospace !default;
+$code-color: $red50 !default;

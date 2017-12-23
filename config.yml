@@ -1,0 +1,21 @@
+baseURL: "https://tilde.town/~resir014/"
+languageCode: "en-us"
+title: "~resir014"
+
+menu:
+  main:
+    - name: "photography"
+      weight: -110
+      identifier: "photography"
+      url: "/photography/"
+    - name: "playlist"
+      weight: -100
+      identifier: "playlist"
+      url: "/playlist/"
+    - name: "timeless games"
+      weight: -90
+      identifier: "timeless-games"
+      url: "/timeless-games/"
+
+params:
+  subtitle: Thoughts on life.
