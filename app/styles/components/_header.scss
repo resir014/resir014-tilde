@@ -24,6 +24,7 @@
     display: inline-block;
     color: inherit;
     font-weight: 400;
+    color: $white;
 
     &:hover,
     &:focus {
@@ -56,11 +57,11 @@
 
     a {
       display: inline-block;
-      color: $body-color;
+      color: inherit;
 
       &:hover,
       &:focus {
-        color: inherit;
+        color: $white;
         text-decoration: none;
       }
     }
