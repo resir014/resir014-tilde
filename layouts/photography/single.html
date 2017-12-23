@@ -1,11 +1,13 @@
 {{ define "title" }}
-  {{ .Title }} &middot; {{ .Site.Title }}
+  {{ .Title }} &middot; Photography &middot; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
 <div class="container content">
-  <article class="article">
+  <article class="article article--photography">
+    <span class="article-category">Photography</span>
     <h1 class="article-title">{{ .Title }}</h1>
     <div class="article-content">
+      <img src="{{ .Params.Photo_URL | relURL }}">
       {{ .Content }}
     </div>
   </article>

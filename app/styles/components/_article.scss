@@ -1,28 +1,49 @@
-.page,
-.post {
+.article {
   margin-top: 3rem;
-
-  li + li {
-    margin-top: .25rem;
-  }
 }
 
 // Blog post or page title
-.page-title {
+.article-title {
   margin-top: 0;
   color: $white;
-}
 
-.post-title {
   a {
     color: $white;
   }
 }
 
+.article-category {
+  display: block;
+  margin: 0;
+  font-size: 1.333rem;
+  font-weight: 300;
+  color: $white;
+}
+
+.article-content {
+  li + li {
+    margin-top: .25rem;
+  }
+}
+
 // Meta data line below post title
-.post-date {
+.article-meta {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: $body-muted-color;
+}
+
+// Customised styles based on article type
+
+.article--post {
+  .article-content {
+    margin-top: 1rem;
+  }
+}
+
+.article--photography {
+  .article-content {
+    margin-top: 1rem;
+  }
 }

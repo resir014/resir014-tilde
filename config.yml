@@ -9,18 +9,18 @@ pygmentsStyle: "native"
 # Menu options
 menu:
   main:
-#    - name: "photography"
-#      weight: -110
-#      identifier: "photography"
-#      url: "/photography/"
-#    - name: "playlist"
-#      weight: -100
-#      identifier: "playlist"
-#      url: "/playlist/"
-#    - name: "timeless games"
-#      weight: -90
-#      identifier: "timeless-games"
-#      url: "/timeless-games/"
+    - name: "photography"
+      weight: -110
+      identifier: "photography"
+      url: "/photography/"
+    - name: "playlist"
+      weight: -100
+      identifier: "playlist"
+      url: "/playlist/"
+    - name: "timeless games"
+      weight: -90
+      identifier: "timeless-games"
+      url: "/timeless-games/"
     - name: "tildetv"
       weight: -80
       identifier: "tildetv"

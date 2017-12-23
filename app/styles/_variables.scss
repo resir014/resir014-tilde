@@ -68,7 +68,7 @@ $root-font-size-lg: 18px !default;
 $root-line-height: 1.45 !default;
 
 $body-color: $grey40 !default;
-$body-muted-color: $grey60 !default;
+$body-muted-color: darken($grey50, 10%) !default;
 $body-bg: $grey90 !default;
 $link-color: $blue40 !default;
 
