@@ -32,7 +32,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "husky": "^0.14.3",
-    "node-sass": "^4.7.2",
     "postcss-brunch": "^2.1.0",
     "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2.10.0"
