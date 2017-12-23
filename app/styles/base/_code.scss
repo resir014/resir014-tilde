@@ -1,0 +1,51 @@
+code,
+pre {
+  font-family: $code-font-family;
+}
+
+code {
+  padding: .25em .5em;
+  border-radius: 3px;
+  background-color: darken($body-bg, 10%);
+  color: lighten($body-color, 10%);
+  font-size: 85%;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  code {
+    padding: 0;
+    background-color: transparent;
+    font-size: 100%;
+  }
+}
+
+// Pygments via Jekyll
+
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  background-color: lighten($body-bg, 10%);
+  font-size: .8rem;
+  line-height: 1.4;
+
+  pre {
+    padding: 1rem;
+    margin-bottom: 0;
+    border-radius: .25rem;
+    overflow-x: auto;
+  }
+
+  .lineno {
+    display: inline-block; // Ensures the null space also isn't selectable
+    padding-right: .75rem;
+    padding-left: .25rem;
+    color: $body-muted-color;
+    // Make sure numbers aren't selectable
+    user-select: none;
+  }
+}

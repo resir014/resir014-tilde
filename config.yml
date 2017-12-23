@@ -1,21 +1,31 @@
+# Base options
 baseURL: "https://tilde.town/~resir014/"
 languageCode: "en-us"
 title: "~resir014"
 
+# Pygments
+pygmentsStyle: "native"
+
+# Menu options
 menu:
   main:
-    - name: "photography"
-      weight: -110
-      identifier: "photography"
-      url: "/photography/"
-    - name: "playlist"
-      weight: -100
-      identifier: "playlist"
-      url: "/playlist/"
-    - name: "timeless games"
-      weight: -90
-      identifier: "timeless-games"
-      url: "/timeless-games/"
+#    - name: "photography"
+#      weight: -110
+#      identifier: "photography"
+#      url: "/photography/"
+#    - name: "playlist"
+#      weight: -100
+#      identifier: "playlist"
+#      url: "/playlist/"
+#    - name: "timeless games"
+#      weight: -90
+#      identifier: "timeless-games"
+#      url: "/timeless-games/"
+    - name: "tildetv"
+      weight: -80
+      identifier: "tildetv"
+      url: "/tildetv/"
 
+# Custom params
 params:
   subtitle: Thoughts on life.
