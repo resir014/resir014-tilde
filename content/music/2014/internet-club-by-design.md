@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "INTERNET CLUB - BY DESIGN"
 release_year: 2014
 album: "VANISHING VISION"

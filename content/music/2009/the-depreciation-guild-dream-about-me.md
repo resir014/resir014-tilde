@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "The Depreciation Guild - Dream About Me"
 release_year: 2009
 album: Spirit Youth

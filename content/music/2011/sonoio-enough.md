@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "SONOIO - Enough"
 release_year: 2011
 album: RED

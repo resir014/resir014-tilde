@@ -4,7 +4,7 @@ title: Home
 
 # Hello!
 
-Welcome to the tilde page for ~resir014. This tilde page serves as a catalogue of my interests.
+<p class="lead">Welcome to the tilde page for ~resir014. This tilde page serves as a catalogue of my interests.</p>
 
 You can read more about me <a href="{{< baseurl src="/about/" >}}">here</a>, or here:
 

@@ -1,0 +1,40 @@
+.flex-list-item {
+  display: block;
+  margin: .5rem 0;
+
+  @media (min-width: $grid-breakpoint-md) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &--link {
+    color: inherit;
+    text-decoration: none;
+
+    .flex-list-item__title {
+      color: $link-color;
+    }
+
+    @include on-event {
+      text-decoration: none;
+
+      .flex-list-item__title {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__span {
+    display: block;
+    width: 10%;
+
+    @media (min-width: $grid-breakpoint-lg) {
+      width: 7.5%;
+    }
+  }
+
+  &__title {
+    display: block;
+    flex-grow: 1;
+  }
+}

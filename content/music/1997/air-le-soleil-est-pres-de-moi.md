@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Air - Le Soleil Est Près de Moi"
 release_year: 1997
 album: "Premiers Symptomes"

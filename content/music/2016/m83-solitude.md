@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "M83 - Solitude"
 release_year: 2016
 album: "Junk"

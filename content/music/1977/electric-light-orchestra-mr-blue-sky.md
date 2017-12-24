@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Electric Light Orchestra - Mr Blue Sky"
 release_year: 1977
 album: "Out of the Blue"

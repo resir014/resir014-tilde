@@ -2,7 +2,7 @@
 title: "/etc/ - the land of 'anything goes'"
 ---
 
-These are some random, maybe dumb stuffs that I used to do some time ago. I am solely not responsible for what might happen to your sanity after viewing these.
+<p class="lead">These are some random, maybe dumb stuffs that I used to do some time ago. I am solely not responsible for what might happen to your sanity after viewing these.</p>
 
 ## 2017
 

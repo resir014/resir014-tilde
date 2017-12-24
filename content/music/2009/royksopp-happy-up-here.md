@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Röyksopp - Happy Up Here"
 release_year: 2009
 album: Junior

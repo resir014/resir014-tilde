@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Chapelier Fou - Moth, Flame (feat. Matt Elliott)"
 release_year: 2012
 album: "Invisible"

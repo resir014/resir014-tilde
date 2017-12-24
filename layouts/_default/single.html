@@ -1,6 +1,11 @@
 {{ define "title" }}
   {{ .Title }} &middot; {{ .Site.Title }}
 {{ end }}
+{{ define "head" }}
+<meta name="description" content="{{ .Site.Params.Subtitle }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Site.Params.Subtitle }}">
+{{ end }}
 {{ define "main" }}
 <div class="container content">
   <article class="article">

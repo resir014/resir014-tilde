@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Lone - Breeze Out"
 release_year: 2016
 album: "Levitate"

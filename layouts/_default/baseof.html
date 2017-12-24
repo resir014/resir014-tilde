@@ -8,6 +8,20 @@
       {{ .Site.Title }}
     {{ end }}</title>
 
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{ block "head" . }}
+    {{ end }}
+    <meta property="og:url" content="{{ .Permalink }}">
+
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ "/android-touch-icon.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="144x144" href="{{ "/windows-tile-icon.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}">
+    <link rel="shortcut icon" href="{{ "/favicon.png" | relURL }}">
+
     <link rel="stylesheet" href="{{ "/stylesheets/app.css" | relURL }}" />
   </head>
   <body>

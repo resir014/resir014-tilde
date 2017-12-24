@@ -1,17 +1,23 @@
 {{ define "title" }}
   Music &middot; {{ .Site.Title }}
 {{ end }}
+{{ define "head" }}
+<meta name="description" content="Songs that I like. Songs you might like.">
+<meta property="og:title" content="Music">
+<meta property="og:description" content="Songs that I like. Songs you might like.">
+{{ end }}
 {{ define "main" }}
 <div class="container content">
   <article class="article">
     <h1 class="article-title">Music</h1>
     <div class="article-content">
-      <p>Songs that I like. Songs you might like</p>
-      <div class="games-list">
+      <p class="lead">Songs that I like. Songs you might like.</p>
+      <div class="flex-list">
       <!-- Ranges through content/post/*.md -->
-      {{ range .Data.Pages }}
-        <div class="games-list-item">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ range (.Data.Pages.ByParam "release_year").Reverse }}
+        <div class="flex-list-item">
+          <span class="flex-list-item__span">{{ .Params.Release_Year }}</span>
+          <a class="flex-list-item__title" href="{{ .Permalink }}">{{ .Title }}</a>
         </div>
       {{ end }}
       </div>

@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Justice - Randy"
 release_year: 2016
 album: "Woman"

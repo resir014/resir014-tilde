@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Lab Partners - After Hours"
 release_year: 2002
 album: "Daystar"

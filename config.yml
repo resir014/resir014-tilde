@@ -13,19 +13,23 @@ menu:
       weight: -110
       identifier: "photography"
       url: "/photography/"
-    - name: "timeless games"
+    - name: "music"
       weight: -100
+      identifier: "music"
+      url: "/music/"
+    - name: "timeless games"
+      weight: -90
       identifier: "timeless-games"
       url: "/timeless-games/"
     - name: "stuff"
-      weight: -90
+      weight: -80
       identifier: "etc"
       url: "/etc/"
     - name: "tildetv"
-      weight: -80
+      weight: -70
       identifier: "tildetv"
       url: "/tildetv/"
 
 # Custom params
 params:
-  subtitle: Thoughts on life.
+  subtitle: "Web developer based in Jakarta, Indonesia."

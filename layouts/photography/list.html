@@ -1,12 +1,17 @@
 {{ define "title" }}
   Photography &middot; {{ .Site.Title }}
 {{ end }}
+{{ define "head" }}
+<meta name="description" content="Sometimes I go outside and shoot things with my camera.">
+<meta property="og:title" content="Photography">
+<meta property="og:description" content="Sometimes I go outside and shoot things with my camera.">
+{{ end }}
 {{ define "main" }}
 <div class="container content">
   <article class="article">
     <h1 class="article-title">Photography</h1>
     <div class="article-content">
-      <p>Sometimes I go outside and shoot things with my camera.</p>
+      <p class="lead">Sometimes I go outside and shoot things with my camera.</p>
       <div class="photography-list grid-container grid-container--gutterless">
       <!-- Ranges through content/post/*.md -->
       {{ range .Data.Pages }}

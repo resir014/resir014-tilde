@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Mort Garson - Swingin' Spathipyllums"
 release_year: 1976
 album: "Mother Earth's Plantasia"

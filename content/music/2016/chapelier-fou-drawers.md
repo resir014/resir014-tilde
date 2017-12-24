@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Chapelier Fou - Drawers"
 release_year: 2016
 album: "Kalia"

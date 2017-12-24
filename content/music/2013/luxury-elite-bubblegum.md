@@ -1,5 +1,4 @@
 ---
-layout: music
 title: "Luxury Elite - Bubblegum"
 release_year: 2013
 album: "TV Party"
