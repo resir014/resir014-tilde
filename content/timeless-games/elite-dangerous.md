@@ -1,7 +1,7 @@
 ---
 title: "Elite: Dangerous"
 release_year: 2014
-header_image_url: /public/images/timeless-games/elite-dangerous/elite-dangerous.jpg
+header_image_url: /images/timeless-games/elite-dangerous/elite-dangerous.jpg
 genre:
   - simulation
   - exploration

@@ -1,7 +1,7 @@
 ---
 title: "Portal 2"
 release_year: 2011
-header_image_url: /public/images/timeless-games/portal-2/screenshot-3.jpg
+header_image_url: /images/timeless-games/portal-2/screenshot-3.jpg
 genre:
   - puzzle
   - co-op

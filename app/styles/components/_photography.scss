@@ -1,0 +1,14 @@
+.article--photography {
+  .responsive-embed {
+    margin: 2rem 0;
+    border: 10px solid $grey70;
+  }
+
+  .photo-item {
+    border: 10px solid $grey70;
+
+    img {
+      margin: 0;
+    }
+  }
+}

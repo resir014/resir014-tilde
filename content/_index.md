@@ -14,7 +14,7 @@ $ cat ~resir014/readme.txt
 
 You can also find me here:
 
-* [Website](https://resir014.xyz/) - Writings, ramblings, and thoughts about computers in general.
+* [Actual website](https://resir014.xyz/) - Writings, ramblings, and thoughts about computers in general.
 * [Mastodon]({{ site.baseurl }}/mastodon) - A fancy distributed social network.
 * [Twitter](https://twitter.com/resir014) - Where I mostly shitpost about computers and other generic things.
 * [GitHub](https://github.com/resir014) - The dumping ground for most of my failed projects.

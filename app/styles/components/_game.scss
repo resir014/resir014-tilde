@@ -1,0 +1,43 @@
+.article--games {
+  .responsive-embed {
+    margin: 2rem 0;
+    border: 10px solid $grey70;
+  }
+
+  .photo-item {
+    border: 10px solid $grey70;
+
+    img {
+      margin: 0;
+    }
+  }
+}
+
+.game-metadata {
+  margin: 1rem 0;
+
+  &__release-year {
+    span {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.game-metadata-genre {
+  margin-top: .5rem;
+
+  &__item {
+    margin-right: .5rem;
+    padding: .125rem .25rem;
+    font-size: 85%;
+    color: $white;
+    background-color: $grey80;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

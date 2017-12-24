@@ -36,22 +36,10 @@
 
 // Customised styles based on article type
 
-.article--post {
+.article--post,
+.article--photography,
+.article--games {
   .article-content {
     margin-top: 1rem;
-  }
-}
-
-.article--photography {
-  .article-content {
-    margin-top: 1rem;
-  }
-
-  .photo-item {
-    border: 10px solid $grey70;
-
-    img {
-      margin: 0;
-    }
   }
 }

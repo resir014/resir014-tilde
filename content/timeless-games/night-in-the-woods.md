@@ -1,7 +1,7 @@
 ---
 title: "Night in the Woods"
 release_year: 2017
-header_image_url: /public/images/timeless-games/night-in-the-woods/screenshot.jpg
+header_image_url: /images/timeless-games/night-in-the-woods/screenshot.jpg
 genre:
   - indie
   - adventure

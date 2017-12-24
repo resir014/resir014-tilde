@@ -1,7 +1,7 @@
 ---
 title: "Starbound"
 release_year: 2016
-header_image_url: /public/images/timeless-games/starbound/screenshot.jpg
+header_image_url: /images/timeless-games/starbound/screenshot.jpg
 genre:
   - indie
   - sandbox
