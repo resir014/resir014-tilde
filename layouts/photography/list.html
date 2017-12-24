@@ -2,16 +2,23 @@
   Photography &middot; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<div class="container container--fluid content">
+<div class="container content">
   <article class="article">
     <h1 class="article-title">Photography</h1>
     <div class="article-content">
       <p>Sometimes I go outside and shoot things with my camera.</p>
-      <div class="photography-list">
+      <div class="photography-list grid-container grid-container--gutterless">
       <!-- Ranges through content/post/*.md -->
       {{ range .Data.Pages }}
         <div class="photography-list-item">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <a href="{{ .Permalink }}">
+            <figure>
+              <img src="{{ .Params.Photo_URL | relURL }}">
+              <figcaption>
+                {{ .Title }}{{ if .Date }} ({{ .Date.Format "2006" }}){{ end }}
+              </figcaption>
+            </figure>
+          </a>
         </div>
       {{ end }}
       </div>

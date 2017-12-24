@@ -2,16 +2,24 @@
   @supports (display: grid) {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
+    grid-gap: $grid-gutter;
   }
 }
 
 .container {
   max-width: $container-width-md;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: $grid-gutter;
+  padding-left: $grid-gutter;
   margin-right: auto;
-  margin-left: 0;
+  margin-left: auto;
+
+  @media (min-width: $grid-breakpoint-lg) {
+    max-width: $container-width-lg
+  }
+
+  @media (min-width: $grid-breakpoint-xl) {
+    max-width: $container-width-xl
+  }
 
   &--fluid {
     max-width: 100%;
@@ -19,19 +27,31 @@
 }
 
 .grid-container {
-  padding: 20px;
-  max-width: $container-width-xl;
+  padding: $grid-gutter;
+  max-width: $container-width-md;
   margin: 0 auto;
 
   @supports (display: grid) {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
+    grid-gap: $grid-gutter;
     grid-column: span 12;
+  }
+
+  @media (min-width: $grid-breakpoint-lg) {
+    max-width: $container-width-lg
+  }
+
+  @media (min-width: $grid-breakpoint-xl) {
+    max-width: $container-width-xl
   }
 
   &--gutterless {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  &--fluid {
+    max-width: 100%;
   }
 }
