@@ -1,0 +1,21 @@
+{{ define "title" }}
+  Music &middot; {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<div class="container content">
+  <article class="article">
+    <h1 class="article-title">Music</h1>
+    <div class="article-content">
+      <p>Songs that I like. Songs you might like</p>
+      <div class="games-list">
+      <!-- Ranges through content/post/*.md -->
+      {{ range .Data.Pages }}
+        <div class="games-list-item">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}

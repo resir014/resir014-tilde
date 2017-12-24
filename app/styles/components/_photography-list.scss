@@ -3,7 +3,17 @@
 }
 
 .photography-list-item {
-  grid-column: span 4;
+  @supports (display: grid) {
+    grid-column: span 12;
+
+    @media (min-width: $grid-breakpoint-md) {
+      grid-column: span 6;
+    }
+
+    @media (min-width: $grid-breakpoint-xl) {
+      grid-column: span 4;
+    }
+  }
 
   a {
     color: inherit;
