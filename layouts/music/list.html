@@ -13,7 +13,6 @@
     <div class="article-content">
       <p class="lead">Songs that I like. Songs you might like.</p>
       <div class="flex-list">
-      <!-- Ranges through content/post/*.md -->
       {{ range (.Data.Pages.ByParam "release_year").Reverse }}
         <div class="flex-list-item">
           <span class="flex-list-item__span">{{ .Params.Release_Year }}</span>
