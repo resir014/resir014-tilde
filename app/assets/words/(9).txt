@@ -1,5 +1,6 @@
-Every time I see the usual "shitting on JS because it's cool" kind of tweet, it
-literally made me question every life decision I've ever made.
+Every time I see the usual "shitting on JS because it's cool" kind of
+tweet/post/article/etc, it literally made me question every life decision I've
+ever made.
 
 I literally only seriously started getting into programming when I learned
 HTML/CSS, and now I learned JS which is the thing that I've been doing all this
