@@ -30,7 +30,10 @@
         </div>
       {{ else if isset .Params "header_image_url" }}
         <figure class="photo-item">
-          <img src="{{ .Params.Header_Image_URL | relURL }}">
+          <img
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{{ .Params.Header_Image_URL | relURL }}"
+            class="lazyload">
         </figure>
       {{ end }}
       {{ .Content }}

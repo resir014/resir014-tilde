@@ -17,7 +17,10 @@
         <div class="photography-list-item">
           <a href="{{ .Permalink }}">
             <figure>
-              <img src="{{ .Params.Photo_URL | relURL }}">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="{{ .Params.Photo_URL | relURL }}"
+                class="lazyload">
               <figcaption>
                 {{ .Title }}{{ if .Date }} ({{ .Date.Format "2006" }}){{ end }}
               </figcaption>

@@ -13,7 +13,10 @@
     <h1 class="article-title">{{ .Title }}</h1>
     <div class="article-content">
       <figure class="photo-item">
-        <img src="{{ .Params.Photo_URL | relURL }}">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="{{ .Params.Photo_URL | relURL }}"
+          class="lazyload">
       </figure>
       {{ .Content }}
       <table>
