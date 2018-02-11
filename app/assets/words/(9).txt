@@ -1,0 +1,25 @@
+Every time I see the usual "shitting on JS because it's cool" kind of tweet, it
+literally made me question every life decision I've ever made.
+
+I literally only seriously started getting into programming when I learned
+HTML/CSS, and now I learned JS which is the thing that I've been doing all this
+time.
+
+This is my greatest life gamble. Going deep into web development is my
+all-or-nothing decision. I thought I was on a roll, until I see...
+
+...that the programming community as a whole actually shit on us for what we are
+and what we use, even telling us to "git gud" and learn a real programming
+language.
+
+All the negatives started piling in. javascript is a fake programming language,
+I'm a fake programmer, I should've been better off flipping burgers at
+McDonald's.
+
+I should probably start picking up on learning a "real" programming language
+myself (I'm interested in Elixir) but too late, that whole ordeal already made
+me insecure as fuck.
+
+So I'm now forever a fake developer.
+
+2018-02-11
