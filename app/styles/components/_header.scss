@@ -1,20 +1,29 @@
 .header {
   color: $body-color;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   @media (min-width: $grid-breakpoint-md) {
-    display: flex;
-    flex-direction: row;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
   }
 
-  @supports (display: grid) {
-    grid-column: span 12;
+  &__inner {
+    @media (min-width: $grid-breakpoint-md) {
+      display: flex;
+      flex-direction: row;
+    }
+
+    @supports (display: grid) {
+      grid-column: span 12;
+    }
   }
 }
 
 .header-logo {
   display: flex;
   align-items: center;
-  padding: .25rem 0;
+  padding: 0;
 
   @media (min-width: $grid-breakpoint-md) {
     padding-right: 1rem;
@@ -34,14 +43,17 @@
 }
 
 .header-menu {
+  margin-top: .5rem;
+
   @media (min-width: $grid-breakpoint-md) {
     display: flex;
     flex-grow: 1;
+    margin-top: 0;
   }
 
   &__item {
     display: inline-block;
-    padding: .25rem 0;
+    padding: 0;
     padding-right: 1rem;
     color: inherit;
     font-weight: 300;

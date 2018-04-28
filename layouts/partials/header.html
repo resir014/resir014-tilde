@@ -1,20 +1,21 @@
 <header class="header container container--fluid">
-  <div class="header-logo">
-    <a class="header-logo__link" href="{{ "/" | relURL }}">~resir014</a>
-  </div>
-  <nav class="header-menu">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-      {{ if .HasChildren }}
-        <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </div>
-      {{ else }}
-        <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </div>
+  <div class="header__inner">
+    <div class="header-logo">
+      <a class="header-logo__link" href="{{ "/" | relURL }}">~resir014</a>
+    </div>
+    <nav class="header-menu">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+          <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </div>
+        {{ else }}
+          <div class="header-menu__item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </div>
+        {{ end }}
       {{ end }}
-    {{ end }}
-  </nav>
-
+    </nav>
+  </div>
 </header>
