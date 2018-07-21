@@ -20,23 +20,6 @@
     "url": "https://github.com/resir014/resir014-tilde/issues"
   },
   "homepage": "https://github.com/resir014/resir014-tilde#readme",
-  "devDependencies": {
-    "autoprefixer": "^7.2.3",
-    "babel-brunch": "^6.1.1",
-    "babel-preset-env": "^1.6.1",
-    "brunch": "^2.10.12",
-    "cssnano": "^3.10.0",
-    "eslint": "^4.13.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.5.1",
-    "husky": "^0.14.3",
-    "postcss-brunch": "^2.1.0",
-    "sass-brunch": "github:brunch/sass-brunch",
-    "uglify-js-brunch": "^2.10.0"
-  },
-  "dependencies": {
-    "lazysizes": "^4.0.1"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
