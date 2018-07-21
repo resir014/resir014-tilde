@@ -16,13 +16,15 @@
 
     <link rel="canonical" href="{{ .Permalink }}">
 
+
     <link rel="icon" type="image/png" sizes="192x192" href="{{ "/android-touch-icon.png" | relURL }}">
     <link rel="icon" type="image/png" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}">
     <link rel="icon" type="image/png" sizes="144x144" href="{{ "/windows-tile-icon.png" | relURL }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}">
     <link rel="shortcut icon" href="{{ "/favicon.png" | relURL }}">
 
-    <link rel="stylesheet" href="{{ "/stylesheets/app.css" | relURL }}" />
+    {{ $style := resources.Get "scss/app.scss" | toCSS | minify }}
+    <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" />
   </head>
   <body>
     {{ partial "header.html" . }}

@@ -1,6 +1,8 @@
 # Build directories
 public/
-static/
+
+# Hugo build artifacts
+resources/
 
 # yarn lockfile
 # Since this project uses npm, this can be omitted.
