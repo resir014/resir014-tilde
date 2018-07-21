@@ -5,10 +5,8 @@
   "main": "",
   "private": true,
   "scripts": {
-    "build": "brunch build --production",
-    "build:hugo": "npm run build && hugo",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "brunch watch"
+    "build": "npm run build && hugo",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
