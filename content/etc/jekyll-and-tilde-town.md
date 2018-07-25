@@ -4,7 +4,7 @@ title: "Jekyll and tilde.town"
 
 For someone who wants to get a simple blog up and running but thinks that installing WordPress aren't worth the hassle, [Jekyll](https://jekyllrb.com/) is *the* go-to solution for generating a static page on the fly. You can simply install it, look through many of the themes available out there (or use the default), then write your content in Markdown, Textile, or HTML, and you have yourself a statically generated website!
 
-Jekyll is by far my favourite static-site generator, and I use it to generate my tilde page. You can even use it to quickly generate your own tilde page, too. I think a lot of townies will find this very useful, so here's a quick guide for everyone to get started with creating your first ever Jekyll site on tilde.town.
+Jekyll is by far my favourite static-site generator, and ~~I use it to generate my tilde page~~ (I used to use it, but now I use [hugo](https://gohugo.io/)!). You can even use it to quickly generate your own tilde page, too. I think a lot of townies will find this very useful, so here's a quick guide for everyone to get started with creating your first ever Jekyll site on tilde.town.
 
 Alright, let's login to our server and get started!
 
