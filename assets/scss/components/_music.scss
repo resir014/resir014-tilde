@@ -1,0 +1,24 @@
+.article--music {
+  .responsive-embed {
+    margin: 2rem 0;
+  }
+
+  .photo-item {
+    border: 10px solid $grey70;
+
+    img {
+      margin: 0;
+    }
+  }
+}
+
+.music-metadata {
+  margin: 0 0 1rem;
+
+  &__album, &__artist {
+    span {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+  }
+}

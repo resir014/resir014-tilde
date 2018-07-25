@@ -8,19 +8,19 @@
 {{ end }}
 {{ define "main" }}
 <div class="container content">
-  <article class="article article--games">
+  <article class="article article--music">
     <span class="article-category">Music</span>
-    <h1 class="article-title">{{ .Title }}</h1>
+    <h1 class="article-title">{{ if isset .Params "track_name" }}{{ .Params.Track_Name }}{{ else }}{{ .Title }}{{ end }}</h1>
     <div class="article-content">
-      <div class="game-metadata">
-        {{ if isset .Params "release_year" }}
-          <div class="game-metadata__release-year">
-            <span>Released in {{ .Params.Release_Year }}</span>
+      <div class="music-metadata">
+        {{ if isset .Params "artist" }}
+          <div class="music-metadata__artist">
+            <span>{{ .Params.Artist }}</span>
           </div>
         {{ end }}
         {{ if isset .Params "album" }}
-          <div class="game-metadata__release-year">
-            <span>Album: {{ .Params.Album }}</span>
+          <div class="music-metadata__album">
+            <span>{{ .Params.Album }}{{ if isset .Params "release_year" }} ({{ .Params.Release_Year }}){{ end }}</span>
           </div>
         {{ end }}
       </div>
