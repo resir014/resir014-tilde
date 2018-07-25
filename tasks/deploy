@@ -8,13 +8,13 @@ HUGO_DEST="$HOME/public_html"
 echo -e "Deploy started."
 
 # Step 1: Check if `postcss-cli is installed`
-if ! [ -x "$(postcss --version)" ]; then
+if ! [ -x "$(type -p postcss)" ]; then
   echo -e "\nDeployment failed: PostCSS is not installed. Install by running \`npm install -g postcss-cli\`."
   exit 1
 fi
 
 # Step 2: `yarn`
-if ! [ -x "$(yarn --version)" ]; then
+if ! [ -x "$(type -p yarn)" ]; then
   echo -e "\nDeployment failed: Yarn is not installed. Install it here: https://yarnpkg.com/en/docs/install."
   exit 1
 fi
