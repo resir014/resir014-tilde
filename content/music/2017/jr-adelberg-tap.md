@@ -2,6 +2,8 @@
 title: "Jr. Adelberg - Tap"
 date: 2017-12-29T10:30:08+07:00
 release_year: 2017
+track_name: "Tap"
+artist: "Jr. Adelberg"
 album: "It Happens Too Briefly To Know"
 ---
 

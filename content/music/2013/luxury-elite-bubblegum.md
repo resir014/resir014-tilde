@@ -1,6 +1,8 @@
 ---
 title: "Luxury Elite - Bubblegum"
 release_year: 2013
+track_name: "Bubblegum"
+artist: "Luxury Elite"
 album: "TV Party"
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Justice - Randy"
 release_year: 2016
+track_name: "Randy"
+artist: "Justice"
 album: "Woman"
 ---
 

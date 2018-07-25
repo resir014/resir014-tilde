@@ -1,6 +1,8 @@
 ---
 title: "65daysofstatic - Supernova"
 release_year: 2016
+track_name: "Supernova"
+artist: "65daysofstatic"
 album: "No Man's Sky: Music for an Infinite Universe"
 ---
 

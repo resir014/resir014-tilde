@@ -1,6 +1,8 @@
 ---
 title: "Car Seat Headrest - America (Never Been)"
 release_year: 2014
-album: "How To Leave Town"
+track_name: "America (Never Been)"
+artist: "Saint Pepsi"
+album: "Car Seat Headrest"
 youtube_embed_id: 5lckBFUVbhQ
 ---
