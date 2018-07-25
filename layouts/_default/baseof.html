@@ -10,8 +10,6 @@
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="{{ .Site.Title }}">
-    {{ block "head" . }}
-    {{ end }}
     <meta property="og:url" content="{{ .Permalink }}">
 
     <link rel="canonical" href="{{ .Permalink }}">
@@ -22,9 +20,11 @@
     <link rel="icon" type="image/png" sizes="144x144" href="{{ "/windows-tile-icon.png" | relURL }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}">
     <link rel="shortcut icon" href="{{ "/favicon.png" | relURL }}">
-
-    {{ $style := resources.Get "scss/app.scss" | toCSS | minify }}
+    {{ $style := resources.Get "scss/app.scss" | postCSS | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" />
+
+    {{ block "head" . }}
+    {{ end }}
   </head>
   <body>
     {{ partial "header.html" . }}
@@ -36,6 +36,9 @@
     </main>
 
     {{ partial "footer.html" . }}
+
+    {{ block "postBody" . }}
+    {{ end }}
 
     {{ partial "scripts.html" . }}
   </body>

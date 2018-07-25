@@ -7,7 +7,42 @@ HUGO_DEST="$HOME/public_html"
 
 echo -e "Deploy started."
 
-# Step 1: build Hugo
+# Step 1: Check if `postcss-cli is installed`
+if ![ -x "$(postcss --version)" ]; then
+  echo -e "\nDeployment failed: PostCSS is not installed. Install by running \`npm install -g postcss-cli\`."
+  exit 1
+fi
+
+# Step 2: `yarn`
+if ![ -x "$(yarn --version)" ]; then
+  echo -e "\nDeployment failed: Yarn is not installed. Install it here: https://yarnpkg.com/en/docs/install."
+  exit 1
+fi
+
+echo -e "\nRunning \`yarn\`."
+yarn
+
+# Test if yarn is successful
+RESULT_NPM=$?
+if [ $RESULT_NPM -ne 0 ]; then
+  # Exit if failed
+  echo -e "\nDeployment failed: \`yarn\` failed."
+  exit 1
+fi
+
+# Step 1: `npm run build`
+echo -e "\nBuilding JS/CSS files."
+npm run build
+
+# Test if npm run build is successful
+RESULT_NPM_BUILD=$?
+if [ $RESULT_NPM_BUILD -ne 0 ]; then
+  # Exit if failed
+  echo -e "\nDeployment failed: Compiling JS + Assets failed."
+  exit 1
+fi
+
+# Step 3: build Hugo
 echo -e "\nBuilding Hugo site to ${HUGO_DEST}..."
 hugo -d $HUGO_DEST
 
