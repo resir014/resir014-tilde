@@ -2,6 +2,8 @@
   color: $grey40;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-right: $grid-gutter;
+  padding-left: $grid-gutter;
 
   @media (min-width: $grid-breakpoint-md) {
     padding-top: .5rem;

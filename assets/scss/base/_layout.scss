@@ -6,10 +6,13 @@
   }
 }
 
-.container {
-  max-width: $container-width-md;
+.main {
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
+}
+
+.container {
+  max-width: $container-width-md;
   margin-right: auto;
   margin-left: auto;
 
